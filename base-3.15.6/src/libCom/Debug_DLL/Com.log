@@ -1,0 +1,125 @@
+﻿  Performing Custom Build Tools
+  bldEnvData.pl: No value given for EPICS_BUILD_COMPILER_CLASS
+  bldEnvData.pl: No value given for EPICS_BUILD_OS_CLASS
+  bldEnvData.pl: No value given for EPICS_BUILD_TARGET_ARCH
+  Generating envData.c
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+          1 file(s) moved.
+  Performing Custom Build Tools
+          1 file(s) moved.
+  Performing Custom Build Tools
+  Building C:\epics\include/epicsVersion.h from ../../configure/CONFIG_BASE_VERSION
+  Found EPICS Version 3.15.6
+  asTrapWrite.c
+  bucketLib.c
+  calcPerform.c
+  postfix.c
+  cvtFast.c
+  dbmf.c
+  ellLib.c
+  ellSort.c
+  envSubr.c
+  errlog.c
+  errSymLib.c
+  freeListLib.c
+  gpHashLib.c
+  libComRegister.c
+  registry.c
+  iocLog.c
+  logClient.c
+  macCore.c
+  macEnv.c
+  macUtil.c
+  Generating Code...
+  Compiling...
+  adjustment.c
+  alarmString.c
+  aToIPAddr.c
+  cantProceed.c
+  epicsConvert.c
+  epicsExit.c
+  epicsStdlib.c
+  epicsString.c
+  epicsUnitTest.c
+  truncateFile.c
+  envData.c
+  errSymTbl.c
+  devLibVME.c
+  epicsGeneralTime.c
+  epicsStackTrace.c
+  epicsStdio.c
+  osiClockTime.c
+  osiSock.c
+  devLibVMEOSD.c
+  epicsReadline.c
+  Generating Code...
+  Compiling...
+  osdAssert.c
+  osdEnv.c
+  osdFindAddr.c
+  osdInterrupt.c
+  osdSpin.c
+  osdThreadHooks.c
+  epicsGetopt.c
+  osdEvent.c
+  osdFindSymbol.c
+  osdMutex.c
+  osdNetIntf.c
+  osdPoolStatus.c
+  osdProcess.c
+  osdSock.c
+  osdStdio.c
+  osdThread.c
+  osdThreadExtra.c
+  poolJob.c
+  threadPool.c
+  epicsRingBytes.c
+  Generating Code...
+  Compiling...
+  taskwd.c
+  yajl.c
+  yajl_alloc.c
+  yajl_buf.c
+  yajl_encode.c
+  yajl_gen.c
+  yajl_lex.c
+  yajl_parser.c
+  Generating Code...
+  epicsOnce.cpp
+  epicsSingletonMutex.cpp
+  resourceLib.cpp
+  fdManager.cpp
+  fdmgr.cpp
+  iocsh.cpp
+  ipAddrToAsciiAsynchronous.cpp
+  epicsEvent.cpp
+  epicsMath.cpp
+  epicsMessageQueue.cpp
+  epicsMutex.cpp
+  epicsThread.cpp
+  epicsTime.cpp
+  epicsAtomicOSD.cpp
+  osdMessageQueue.cpp
+  epicsSocketConvertErrnoToString.cpp
+  epicsTempFile.cpp
+  forceBadAllocException.cpp
+  osdBackTrace.cpp
+  osdSignal.cpp
+  Generating Code...
+  Compiling...
+  osdSockAddrReuse.cpp
+  osdTime.cpp
+  setThreadName.cpp
+  systemCallIntMech.cpp
+  epicsRingPointer.cpp
+  epicsTimer.cpp
+  timer.cpp
+  timerQueue.cpp
+  timerQueueActive.cpp
+  timerQueueActiveMgr.cpp
+  timerQueuePassive.cpp
+  Generating Code...
+  asLib.c
+     Creating library C:\epics\Debug_DLL\Com.lib and object C:\epics\Debug_DLL\Com.exp
+  Com.vcxproj -> C:\epics\Debug_DLL\Com.dll

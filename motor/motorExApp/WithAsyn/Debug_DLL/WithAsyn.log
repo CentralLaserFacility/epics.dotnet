@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\std\dbRecStd.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\tools\tools.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\ACRSrc\ACRMotor.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\AcsSrc\Acs.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\AttocubeSrc\Attocube.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\ImsSrc\Ims.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\KohzuSrc\KohzuMotor.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\MclennanSrc\Mclennan.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\MicosSrc\Micos.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\MicroMoSrc\MicroMo.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\OmsSrc\oms.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\PiSrc\PI.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\SmartMotorSrc\SmartMotor.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\SoftMotorSrc\softMotor.vcxproj' does not exist.
+  WithAsyn_registerRecordDeviceDriver.cpp
+  WithAsynMain.c
+LINK : fatal error LNK1104: cannot open file 'C:\epics\Debug_DLL\Aerotech.lib'

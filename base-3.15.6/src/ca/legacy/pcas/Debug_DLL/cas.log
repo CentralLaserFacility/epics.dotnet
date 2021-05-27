@@ -1,0 +1,60 @@
+﻿  beaconAnomalyGovernor.cc
+  beaconTimer.cc
+  caNetAddr.cc
+  casAsyncIOI.cc
+  casAsyncPVAttachIO.cc
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncPVAttachIO.cc(37,1): warning C4297: 'casAsyncPVAttachIO::~casAsyncPVAttachIO': function assumed not to throw an exception but does
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncPVAttachIO.cc(37,1): message : destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  casAsyncPVAttachIOI.cpp
+  casAsyncPVExistIO.cc
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncPVExistIO.cc(35,1): warning C4297: 'casAsyncPVExistIO::~casAsyncPVExistIO': function assumed not to throw an exception but does
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncPVExistIO.cc(35,1): message : destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  casAsyncPVExistIOI.cpp
+  casAsyncReadIO.cc
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncReadIO.cc(35,1): warning C4297: 'casAsyncReadIO::~casAsyncReadIO': function assumed not to throw an exception but does
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncReadIO.cc(35,1): message : destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  casAsyncReadIOI.cc
+  casAsyncWriteIO.cc
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncWriteIO.cc(37,1): warning C4297: 'casAsyncWriteIO::~casAsyncWriteIO': function assumed not to throw an exception but does
+C:\epics\base-3.15.6\src\ca\legacy\pcas\generic\casAsyncWriteIO.cc(37,1): message : destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  casAsyncWriteIOI.cpp
+  casBufferFactory.cpp
+  casChannel.cc
+  casChannelI.cc
+  casCoreClient.cc
+  casCtx.cc
+  casDGClient.cc
+  caServer.cc
+  caServerI.cc
+  Generating Code...
+  Compiling...
+  casEventMask.cc
+  casEventSys.cc
+  casMonEvent.cc
+  casMonitor.cc
+  casPV.cc
+  casPVI.cc
+  casStrmClient.cc
+  chanIntfForPV.cc
+  channelDestroyEvent.cpp
+  clientBufMemoryManager.cpp
+  inBuf.cc
+  outBuf.cc
+  pvAttachReturn.cc
+  pvExistReturn.cc
+  casDGIntfOS.cc
+  caServerOS.cc
+  casIntfOS.cc
+  casStreamOS.cc
+  ioBlocked.cc
+  templateInstances.cpp
+  Generating Code...
+  Compiling...
+  casDGIntfIO.cc
+  caServerIO.cc
+  casIntfIO.cc
+  casStreamIO.cc
+  ipIgnoreEntry.cpp
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\cas.lib and object C:\epics\Debug_DLL\cas.exp
+  cas.vcxproj -> C:\epics\Debug_DLL\cas.dll

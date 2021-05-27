@@ -1,0 +1,36 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+  devMotorSim.c
+  drvMotorSim.c
+  route.c
+  Generating Code...
+  motorSimDriver.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  motorSimRegister.cc
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\motorSimSupport.lib and object C:\epics\Debug_DLL\motorSimSupport.exp
+devMotorSim.obj : error LNK2019: unresolved external symbol __imp__recGblRecordError referenced in function _init_record
+devMotorSim.obj : error LNK2019: unresolved external symbol __imp__registryDriverSupportFind referenced in function _init_record
+devMotorSim.obj : error LNK2019: unresolved external symbol __imp__scanOnce referenced in function _motor_callback
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsTimeGetCurrent@4 referenced in function _motorProcTask
+motorSimDriver.obj : error LNK2001: unresolved external symbol __imp__epicsTimeGetCurrent@4
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsTimeDiffInSeconds@8 referenced in function _motorProcTask
+motorSimDriver.obj : error LNK2001: unresolved external symbol __imp__epicsTimeDiffInSeconds@8
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetStackSize@4 referenced in function _motorSimCreate
+motorSimDriver.obj : error LNK2001: unresolved external symbol __imp__epicsThreadGetStackSize@4
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsThreadCreate@20 referenced in function _motorSimCreate
+motorSimDriver.obj : error LNK2001: unresolved external symbol __imp__epicsThreadCreate@20
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsThreadSleep@8 referenced in function _motorSimTask
+motorSimDriver.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsMutexOsiCreate@8 referenced in function _motorSimCreateAxis
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsMutexDestroy@4 referenced in function _motorSimCreateAxis
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsMutexUnlock@4 referenced in function _motorAxisSetDouble
+drvMotorSim.obj : error LNK2019: unresolved external symbol __imp__epicsMutexLock@4 referenced in function _motorAxisSetDouble
+motorSimDriver.obj : error LNK2019: unresolved external symbol __imp__epicsStrDup referenced in function "public: __thiscall motorSimController::motorSimController(char const *,int,int,int)" (??0motorSimController@@QAE@PBDHHH@Z)
+motorSimDriver.obj : error LNK2019: unresolved external symbol __imp__ellAdd referenced in function "public: __thiscall motorSimController::motorSimController(char const *,int,int,int)" (??0motorSimController@@QAE@PBDHHH@Z)
+motorSimDriver.obj : error LNK2019: unresolved external symbol __imp__iocshRegister@8 referenced in function "void __cdecl motorSimDriverRegister(void)" (?motorSimDriverRegister@@YAXXZ)
+motorSimRegister.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+motorSimDriver.obj : error LNK2019: unresolved external symbol __imp__epicsStdoutPrintf referenced in function _motorSimConfigAxis
+C:\epics\Debug_DLL\motorSimSupport.dll : fatal error LNK1120: 16 unresolved externals

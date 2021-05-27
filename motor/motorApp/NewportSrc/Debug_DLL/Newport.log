@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+  Performing Custom Build Tools
+  XPS_trajectoryScan.st
+  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  Performing Custom Build Tools
+  MM4005_trajectoryScan.st
+  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  Performing Custom Build Tools
+  xpsSlave.st
+  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: Custom build for 'XPS_trajectoryScan.st;MM4005_trajectoryScan.st;xpsSlave.st' exited with code 9009.

@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug_DLL\) contains files shared from another project (acctst.vcxproj, ca.vcxproj, caconntest.vcxproj, caRepeater.vcxproj, casw.vcxproj, catime.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  caEventRate.cpp
+  caEventRateMain.cpp
+  Generating Code...
+caEventRateMain.obj : warning LNK4099: PDB '' was not found with 'caEventRateMain.obj' or at ''; linking object as if no debug info
+caEventRate.obj : warning LNK4099: PDB 'caEventRatevc142.pdb' was not found with 'caEventRate.obj' or at 'C:\epics\Debug_DLL\caEventRatevc142.pdb'; linking object as if no debug info
+  caEventRate.vcxproj -> C:\epics\Debug_DLL\caEventRate.exe
+BSCMAKE : error BK1506: cannot open file 'Debug_DLL\caEventRate.sbr': No such file or directory

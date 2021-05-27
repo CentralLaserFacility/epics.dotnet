@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+  ACSTech80Register.cc
+  devSPiiPlus.cc
+  drvSPiiPlus.cc
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\acsTech80.lib and object C:\epics\Debug_DLL\acsTech80.exp
+ACSTech80Register.obj : error LNK2019: unresolved external symbol __imp__iocshRegister@8 referenced in function _ACSTech80Register
+devSPiiPlus.obj : error LNK2019: unresolved external symbol __imp__errlogMessage@4 referenced in function "enum RTN_VALUES __cdecl SPiiPlus_build_trans(enum motor_cmnd,double *,struct motorRecord *)" (?SPiiPlus_build_trans@@YA?AW4RTN_VALUES@@W4motor_cmnd@@PANPAUmotorRecord@@@Z)
+drvSPiiPlus.obj : error LNK2001: unresolved external symbol __imp__errlogMessage@4
+drvSPiiPlus.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetStackSize@4 referenced in function "int __cdecl motor_init(void)" (?motor_init@@YAHXZ)
+drvSPiiPlus.obj : error LNK2019: unresolved external symbol __imp__epicsThreadCreate@20 referenced in function "int __cdecl motor_init(void)" (?motor_init@@YAHXZ)
+drvSPiiPlus.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall epicsEvent::epicsEvent(enum epicsEventInitialState)" (__imp_??0epicsEvent@@QAE@W4epicsEventInitialState@@@Z) referenced in function "void __cdecl `dynamic initializer for 'freelist_lock''(void)" (??__Efreelist_lock@@YAXXZ)
+drvSPiiPlus.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall epicsEvent::~epicsEvent(void)" (__imp_??1epicsEvent@@QAE@XZ) referenced in function "void __cdecl `dynamic atexit destructor for 'freelist_lock''(void)" (??__Ffreelist_lock@@YAXXZ)
+drvSPiiPlus.obj : error LNK2019: unresolved external symbol __imp__errlogPrintf referenced in function "enum RTN_VALUES __cdecl send_mess(int,char const *,char *)" (?send_mess@@YA?AW4RTN_VALUES@@HPBDPAD@Z)
+drvSPiiPlus.obj : error LNK2019: unresolved external symbol __imp__epicsStdoutPrintf referenced in function "long __cdecl report(int)" (?report@@YAJH@Z)
+C:\epics\Debug_DLL\acsTech80.dll : fatal error LNK1120: 8 unresolved externals

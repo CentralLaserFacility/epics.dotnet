@@ -1,0 +1,228 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\std\dbRecStd.vcxproj' does not exist.
+  subThreadSleep.c
+  seq_ca.c
+  seq_cmd.c
+  seq_if.c
+  seq_mac.c
+  seq_main.c
+  seq_prog.c
+  seq_qry.c
+  seq_queue.c
+  seq_task.c
+  Generating Code...
+  seqSoftIoc_registerRecordDeviceDriver.cpp
+     Creating library C:\epics\Debug_DLL\seq.lib and object C:\epics\Debug_DLL\seq.exp
+LINK : warning LNK4217: symbol '_pvar_func_register_func_subThreadSleep' defined in 'subThreadSleep.obj' is imported by 'seqSoftIoc_registerRecordDeviceDriver.obj' in function '_seqSoftIoc_registerRecordDeviceDriver'
+subThreadSleep.obj : error LNK2019: unresolved external symbol __imp__epicsThreadSleep@8 referenced in function _subThreadSleep
+subThreadSleep.obj : error LNK2019: unresolved external symbol __imp__registryFunctionAdd referenced in function _register_func_subThreadSleep
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__iocshRegister@8 referenced in function "int __cdecl Registration(void)" (?Registration@@YAHXZ)
+seq_cmd.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__iocshRegisterVariable@4 referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__iocshRegisterCommon referenced in function "int __cdecl Registration(void)" (?Registration@@YAHXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__registerRecordTypes referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__registerDevices referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__iocshPpdbbase referenced in function _rrddCallFunc
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_aaiRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_aaoRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_aiRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_aoRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_biRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_boRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_calcRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_calcoutRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_compressRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_dfanoutRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_eventRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_fanoutRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_histogramRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_longinRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_longoutRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_lsiRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_lsoRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_mbbiRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_mbbiDirectRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_mbboRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_mbboDirectRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_permissiveRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_printfRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_selRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_seqRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_stateRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_stringinRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_stringoutRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_subRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_subArrayRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_rset_waveformRSET referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_aaiRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_aaoRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_aiRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_aoRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_biRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_boRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_calcRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_calcoutRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_compressRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_dfanoutRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_eventRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_fanoutRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_histogramRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_longinRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_longoutRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_lsiRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_lsoRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_mbbiRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_mbbiDirectRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_mbboRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_mbboDirectRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_permissiveRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_printfRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_selRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_seqRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_stateRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_stringinRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_stringoutRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_subRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_subArrayRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_waveformRecordSizeOffset referenced in function "void __cdecl `dynamic initializer for 'rtl''(void)" (??__Ertl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAaiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAaoSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAiSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAiSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devTimestampAI referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAiGeneralTime referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAoSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAoSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devAoSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBiSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBiSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBiDbState referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBoSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBoSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBoSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBoGeneralTime referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devBoDbState referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devCalcoutSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devCalcoutSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devEventSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devHistogramSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLiSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLiGeneralTime referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLoSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLoSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLsiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLsiEnviron referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLsoSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLsoSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devLsoStdio referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbbiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbbiSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbbiSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbbiDirectSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbbiDirectSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbbiDirectSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbboSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbboSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbboSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbboDirectSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbboDirectSoftRaw referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMbboDirectSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPrintfSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPrintfSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPrintfStdio referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSiSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSiSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devTimestampSI referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSiGeneralTime referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSiEnviron referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSoSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSoSoftCallback referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSoStdio referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSASoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devWfSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_arrInitialize referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_asSub referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_dbndInitialize referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_syncInitialize referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_tsInitialize referenced in function _seqSoftIoc_registerRecordDeviceDriver
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_CASDEBUG referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_asCaDebug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_atExitDebug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_double_boHIGHlimit referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_boHIGHprecision referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_double_calcoutODLYlimit referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_calcoutODLYprecision referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_callbackParallelThreadsDefault referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_dbBptNotMonotonic referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_dbQuietMacroWarnings referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_dbRecordsAbcSorted referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_dbRecordsOnceOnly referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_dbTemplateMaxVars referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_dbThreadRealtimeLock referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_histogramSDELprecision referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_double_seqDLYlimit referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seqSoftIoc_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_seqDLYprecision referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+seq_ca.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustTrigger referenced in function _proc_db_events
+seq_if.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustTrigger
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustTrigger
+seq_ca.obj : error LNK2019: unresolved external symbol __imp__epicsEventWaitWithTimeout referenced in function _seq_connect
+seq_if.obj : error LNK2001: unresolved external symbol __imp__epicsEventWaitWithTimeout
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsEventWaitWithTimeout
+seq_main.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_prog.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_ca.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_cmd.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_if.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_mac.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+seq_ca.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+seq_cmd.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+seq_if.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+seq_queue.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+seq_ca.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+seq_cmd.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+seq_if.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+seq_queue.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+seq_main.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_queue.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_task.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_ca.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_cmd.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_if.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_mac.obj : error LNK2001: unresolved external symbol __imp__errlogSevPrintf
+seq_ca.obj : error LNK2019: unresolved external symbol __imp__freeListFree@8 referenced in function _seq_get_handler
+seq_if.obj : error LNK2001: unresolved external symbol __imp__freeListFree@8
+seq_cmd.obj : error LNK2019: unresolved external symbol __imp__epicsMutexOsiCreate@8 referenced in function _seqInitPvt
+seq_main.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+seq_queue.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+seq_cmd.obj : error LNK2019: unresolved external symbol __imp__epicsThreadOnce@12 referenced in function _seqLazyInit
+seq_cmd.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetId@4 referenced in function _findThread
+seq_cmd.obj : error LNK2019: unresolved external symbol __imp__errlogPrintf referenced in function _createOrAttachPvSystem
+seq_if.obj : error LNK2019: unresolved external symbol __imp__epicsStrDup referenced in function _seq_pvAssign
+seq_main.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+seq_if.obj : error LNK2019: unresolved external symbol __imp__epicsTimeGetCurrent@4 referenced in function _seq_pvTimeStamp
+seq_if.obj : error LNK2019: unresolved external symbol __imp__freeListMalloc@4 referenced in function _seq_pvGetTmo
+seq_main.obj : error LNK2019: unresolved external symbol __imp__epicsEventCreate referenced in function _init_sprog
+seq_main.obj : error LNK2019: unresolved external symbol __imp__epicsEventDestroy referenced in function _seq_free
+seq_main.obj : error LNK2019: unresolved external symbol __imp__epicsMutexDestroy@4 referenced in function _seq_free
+seq_queue.obj : error LNK2001: unresolved external symbol __imp__epicsMutexDestroy@4
+seq_main.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetStackSize@4 referenced in function _seq@12
+seq_main.obj : error LNK2019: unresolved external symbol __imp__epicsThreadCreate@20 referenced in function _seq@12
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsThreadCreate@20
+seq_main.obj : error LNK2019: unresolved external symbol __imp__freeListInitPvt@12 referenced in function _init_sprog
+seq_main.obj : error LNK2019: unresolved external symbol __imp__epicsINF referenced in function _init_sscb
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsINF
+seq_qry.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetName@12 referenced in function _seqShow@4
+seq_task.obj : error LNK2001: unresolved external symbol __imp__epicsThreadGetName@12
+seq_qry.obj : error LNK2019: unresolved external symbol __imp__epicsTimeToStrftime@16 referenced in function _seqChanShow@8
+seq_task.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustWait referenced in function _sequencer
+seq_task.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetIdSelf@0 referenced in function _sequencer
+seq_task.obj : error LNK2019: unresolved external symbol __imp__taskwdInsert referenced in function _ss_entry
+seq_task.obj : error LNK2019: unresolved external symbol __imp__taskwdRemove referenced in function _ss_entry
+C:\epics\Debug_DLL\seq.dll : fatal error LNK1120: 177 unresolved externals

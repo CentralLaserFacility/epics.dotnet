@@ -1,0 +1,129 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  asynMotorAxis.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  asynMotorController.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  motordevCom.cc
+  motordrvCom.cc
+  motorRecord.cc
+C:\epics\motor\motorApp\MotorSrc\motorRecord.cc(539,28): warning C4305: '=': truncation from 'double' to 'epicsFloat32'
+C:\epics\motor\motorApp\MotorSrc\motorRecord.cc(2782,28): warning C4305: '=': truncation from 'double' to 'epicsFloat32'
+  motorUtil.cc
+  motorUtilAux.cc
+  Generating Code...
+  devMotorAsyn.c
+  drvMotorAsyn.c
+  paramLib.c
+C:\epics\motor\motorApp\MotorSrc\paramLib.c(236,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\motor.lib and object C:\epics\Debug_DLL\motor.exp
+asynMotorAxis.obj : error LNK2019: unresolved external symbol __imp__epicsStdoutPrintf referenced in function "public: __thiscall asynMotorAxis::asynMotorAxis(class asynMotorController *,int)" (??0asynMotorAxis@@QAE@PAVasynMotorController@@H@Z)
+asynMotorController.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetStackSize@4 referenced in function "public: virtual enum asynStatus __thiscall asynMotorController::startMoveToHomeThread(void)" (?startMoveToHomeThread@asynMotorController@@UAE?AW4asynStatus@@XZ)
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__epicsThreadGetStackSize@4
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsThreadCreate@20 referenced in function "public: virtual enum asynStatus __thiscall asynMotorController::startMoveToHomeThread(void)" (?startMoveToHomeThread@asynMotorController@@UAE?AW4asynStatus@@XZ)
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__epicsThreadCreate@20
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsThreadSleep@8 referenced in function "public: virtual enum asynStatus __thiscall asynMotorController::writeFloat64(struct asynUser *,double)" (?writeFloat64@asynMotorController@@UAE?AW4asynStatus@@PAUasynUser@@N@Z)
+motordrvCom.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustCreate referenced in function "public: __thiscall asynMotorController::asynMotorController(char const *,int,int,int,int,int,int,int,int)" (??0asynMotorController@@QAE@PBDHHHHHHHH@Z)
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustTrigger referenced in function "public: virtual enum asynStatus __thiscall asynMotorController::wakeupPoller(void)" (?wakeupPoller@asynMotorController@@UAE?AW4asynStatus@@XZ)
+devMotorAsyn.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustTrigger
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsEventWait referenced in function "public: void __thiscall asynMotorController::asynMotorMoveToHome(void)" (?asynMotorMoveToHome@asynMotorController@@QAEXXZ)
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsEventWaitWithTimeout referenced in function "public: void __thiscall asynMotorController::asynMotorPoller(void)" (?asynMotorPoller@asynMotorController@@QAEXXZ)
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__iocshRegister@8 referenced in function _asynMotorControllerRegister
+drvMotorAsyn.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+asynMotorController.obj : error LNK2019: unresolved external symbol __imp__epicsTimeGetCurrent@4 referenced in function "public: void __thiscall asynMotorController::asynMotorPoller(void)" (?asynMotorPoller@asynMotorController@@QAEXXZ)
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__dbScanLock referenced in function _asynCallback
+motordevCom.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__dbScanUnlock referenced in function _asynCallback
+motordevCom.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__dbProcess referenced in function _asynCallback
+motordevCom.obj : error LNK2001: unresolved external symbol __imp__dbProcess
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__errlogPrintf referenced in function _init_record
+drvMotorAsyn.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+motorUtilAux.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsEventCreate referenced in function _init_controller
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__epicsEventCreate
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsEventDestroy referenced in function _init_controller
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustWait referenced in function _init_controller
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustWait
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__callocMustSucceed referenced in function _init_record
+drvMotorAsyn.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+motorUtilAux.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__db_post_events referenced in function _update_values
+motordevCom.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+motorRecord.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+drvMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsStrCaseCmp referenced in function _drvUserCreate
+drvMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsStrDup referenced in function _drvUserCreate
+motorUtil.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+drvMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsMutexOsiCreate@8 referenced in function _drvAsynMotorConfigure
+drvMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsSnprintf referenced in function _readInt32
+drvMotorAsyn.obj : error LNK2019: unresolved external symbol __imp__registryDriverSupportFind referenced in function _drvAsynMotorConfigure
+motordevCom.obj : error LNK2019: unresolved external symbol __imp__recGblRecordError referenced in function "long __cdecl motor_init_record_com(struct motorRecord *,int,struct driver_table *,struct board_stat * * const)" (?motor_init_record_com@@YAJPAUmotorRecord@@HPAUdriver_table@@QAPAUboard_stat@@@Z)
+motorRecord.obj : error LNK2001: unresolved external symbol __imp__recGblRecordError
+motordevCom.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall epicsEvent::epicsEvent(enum epicsEventInitialState)" (__imp_??0epicsEvent@@QAE@W4epicsEventInitialState@@@Z) referenced in function "long __cdecl motor_init_record_com(struct motorRecord *,int,struct driver_table *,struct board_stat * * const)" (?motor_init_record_com@@YAJPAUmotorRecord@@HPAUdriver_table@@QAPAUboard_stat@@@Z)
+motordevCom.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall epicsEvent::~epicsEvent(void)" (__imp_??1epicsEvent@@QAE@XZ) referenced in function "public: void * __thiscall epicsEvent::`scalar deleting destructor'(unsigned int)" (??_GepicsEvent@@QAEPAXI@Z)
+motordevCom.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall epicsEvent::signal(void)" (__imp_?signal@epicsEvent@@QAEXXZ) referenced in function "void __cdecl motor_callback(struct mess_node *)" (?motor_callback@@YAXPAUmess_node@@@Z)
+motordrvCom.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall epicsEvent::signal(void)" (__imp_?signal@epicsEvent@@QAEXXZ)
+motordevCom.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall epicsEvent::wait(void)" (__imp_?wait@epicsEvent@@QAEXXZ) referenced in function "void __cdecl motor_callback(struct mess_node *)" (?motor_callback@@YAXPAUmess_node@@@Z)
+motordrvCom.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall epicsEvent::wait(void)" (__imp_?wait@epicsEvent@@QAEXXZ)
+motordevCom.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall epicsEvent::wait(double)" (__imp_?wait@epicsEvent@@QAE_NN@Z) referenced in function "long __cdecl motor_init_record_com(struct motorRecord *,int,struct driver_table *,struct board_stat * * const)" (?motor_init_record_com@@YAJPAUmotorRecord@@HPAUdriver_table@@QAPAUboard_stat@@@Z)
+motordrvCom.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall epicsEvent::wait(double)" (__imp_?wait@epicsEvent@@QAE_NN@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol __imp__callbackRequest referenced in function "void __cdecl process_messages(struct driver_table *,class epicsTime,double)" (?process_messages@@YAXPAUdriver_table@@VepicsTime@@N@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol __imp__epicsThreadSleepQuantum@0 referenced in function "int __cdecl motor_task(struct thread_args *)" (?motor_task@@YAHPAUthread_args@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(void)" (??0epicsTime@@QAE@XZ) referenced in function "int __cdecl motor_task(struct thread_args *)" (?motor_task@@YAHPAUthread_args@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(class epicsTime const &)" (??0epicsTime@@QAE@ABV0@@Z) referenced in function "public: class epicsTime __thiscall epicsTime::operator+=(double const &)" (??YepicsTime@@QAE?AV0@ABN@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: static class epicsTime __cdecl epicsTime::getCurrent(void)" (?getCurrent@epicsTime@@SA?AV1@XZ) referenced in function "int __cdecl motor_task(struct thread_args *)" (?motor_task@@YAHPAUthread_args@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct epicsTimeStamp const &)" (??0epicsTime@@QAE@ABUepicsTimeStamp@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct epicsTimeStamp const &)" (??4epicsTime@@QAEAAV0@ABUepicsTimeStamp@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct time_t_wrapper const &)" (??0epicsTime@@QAE@ABUtime_t_wrapper@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct time_t_wrapper const &)" (??4epicsTime@@QAEAAV0@ABUtime_t_wrapper@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct local_tm_nano_sec const &)" (??0epicsTime@@QAE@ABUlocal_tm_nano_sec@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct local_tm_nano_sec const &)" (??4epicsTime@@QAEAAV0@ABUlocal_tm_nano_sec@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct gm_tm_nano_sec const &)" (??0epicsTime@@QAE@ABUgm_tm_nano_sec@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct gm_tm_nano_sec const &)" (??4epicsTime@@QAEAAV0@ABUgm_tm_nano_sec@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct timespec const &)" (??0epicsTime@@QAE@ABUtimespec@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct timespec const &)" (??4epicsTime@@QAEAAV0@ABUtimespec@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct l_fp const &)" (??0epicsTime@@QAE@ABUl_fp@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct l_fp const &)" (??4epicsTime@@QAEAAV0@ABUl_fp@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: double __thiscall epicsTime::operator-(class epicsTime const &)const " (??GepicsTime@@QBENABV0@@Z) referenced in function "int __cdecl motor_task(struct thread_args *)" (?motor_task@@YAHPAUthread_args@@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: class epicsTime __thiscall epicsTime::operator+(double const &)const " (??HepicsTime@@QBE?AV0@ABN@Z) referenced in function "public: class epicsTime __thiscall epicsTime::operator-(double const &)const " (??GepicsTime@@QBE?AV0@ABN@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: bool __thiscall epicsTime::operator<=(class epicsTime const &)const " (??NepicsTime@@QBE_NABV0@@Z) referenced in function "public: bool __thiscall epicsTime::operator>(class epicsTime const &)const " (??OepicsTime@@QBE_NABV0@@Z)
+motordrvCom.obj : error LNK2019: unresolved external symbol "public: bool __thiscall epicsTime::operator<(class epicsTime const &)const " (??MepicsTime@@QBE_NABV0@@Z) referenced in function "public: bool __thiscall epicsTime::operator>=(class epicsTime const &)const " (??PepicsTime@@QBE_NABV0@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__callbackRequestDelayed referenced in function "long __cdecl process(struct dbCommon *)" (?process@@YAJPAUdbCommon@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__dbGetFieldIndex referenced in function "long __cdecl special(struct dbAddr *,int)" (?special@@YAJPAUdbAddr@@H@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__dbGetLink referenced in function "enum RTN_VALUES __cdecl do_work(struct motorRecord *,enum CALLBACK_VALUES)" (?do_work@@YA?AW4RTN_VALUES@@PAUmotorRecord@@W4CALLBACK_VALUES@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__dbPutLink referenced in function "long __cdecl process(struct dbCommon *)" (?process@@YAJPAUdbCommon@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__epicsAssert referenced in function _motorRecordSizeOffset
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__scanOnce referenced in function "void __cdecl callbackFunc(struct callback *)" (?callbackFunc@@YAXPAUcallback@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetGraphicDouble referenced in function "long __cdecl get_graphic_double(struct dbAddr const *,struct dbr_grDouble *)" (?get_graphic_double@@YAJPBUdbAddr@@PAUdbr_grDouble@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetControlDouble referenced in function "long __cdecl get_control_double(struct dbAddr const *,struct dbr_ctrlDouble *)" (?get_control_double@@YAJPBUdbAddr@@PAUdbr_ctrlDouble@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetAlarmDouble referenced in function "long __cdecl get_alarm_double(struct dbAddr const *,struct dbr_alDouble *)" (?get_alarm_double@@YAJPBUdbAddr@@PAUdbr_alDouble@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetPrec referenced in function "long __cdecl get_precision(struct dbAddr const *,long *)" (?get_precision@@YAJPBUdbAddr@@PAJ@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblInitConstantLink referenced in function "long __cdecl init_record(struct dbCommon *,int)" (?init_record@@YAJPAUdbCommon@@H@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblResetAlarms referenced in function "void __cdecl monitor(struct motorRecord *)" (?monitor@@YAXPAUmotorRecord@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblSetSevr referenced in function "void __cdecl alarm_sub(struct motorRecord *)" (?alarm_sub@@YAXPAUmotorRecord@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblFwdLink referenced in function "long __cdecl process(struct dbCommon *)" (?process@@YAJPAUdbCommon@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetTimeStamp referenced in function "long __cdecl process(struct dbCommon *)" (?process@@YAJPAUdbCommon@@@Z)
+motorRecord.obj : error LNK2019: unresolved external symbol _errPrintf referenced in function "enum RTN_VALUES __cdecl do_work(struct motorRecord *,enum CALLBACK_VALUES)" (?do_work@@YA?AW4RTN_VALUES@@PAUmotorRecord@@W4CALLBACK_VALUES@@@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_context_create@4 referenced in function "int __cdecl motorUtil_task(void *)" (?motorUtil_task@@YAHPAX@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_task_exit@0 referenced in function "int __cdecl motorUtil_task(void *)" (?motorUtil_task@@YAHPAX@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_array_put@16 referenced in function "void __cdecl moving(int,struct oldChannelNotify *,short)" (?moving@@YAXHPAUoldChannelNotify@@F@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_pend_io@8 referenced in function "struct oldChannelNotify * __cdecl getChID(char *)" (?getChID@@YAPAUoldChannelNotify@@PAD@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_flush_io@0 referenced in function "void __cdecl moving(int,struct oldChannelNotify *,short)" (?moving@@YAXHPAUoldChannelNotify@@F@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_signal_with_file_and_lineno@16 referenced in function "struct oldChannelNotify * __cdecl getChID(char *)" (?getChID@@YAPAUoldChannelNotify@@PAD@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_search_and_connect@16 referenced in function "struct oldChannelNotify * __cdecl getChID(char *)" (?getChID@@YAPAUoldChannelNotify@@PAD@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol __imp__ca_add_masked_array_event@52 referenced in function "long __cdecl pvMonitor(int,struct oldChannelNotify *,int)" (?pvMonitor@@YAJHPAUoldChannelNotify@@H@Z)
+motorUtil.obj : error LNK2019: unresolved external symbol _errlogPrintf referenced in function "struct oldChannelNotify * __cdecl getChID(char *)" (?getChID@@YAPAUoldChannelNotify@@PAD@Z)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbInitEntry referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbFinishEntry referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbFindRecordType referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbFirstRecord referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbNextRecord referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbGetNRecords referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbGetRecordName referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__dbIsAlias referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+motorUtilAux.obj : error LNK2019: unresolved external symbol __imp__pdbbase referenced in function "char * * __cdecl getMotorList(void)" (?getMotorList@@YAPAPADXZ)
+C:\epics\Debug_DLL\motor.dll : fatal error LNK1120: 79 unresolved externals

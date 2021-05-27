@@ -1,0 +1,541 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\legacy\pcas\cas.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\std\dbRecStd.vcxproj' does not exist.
+  Performing Custom Build Tools
+  asynManager.c
+  epicsInterruptibleSyscall.c
+  asynGpib.c
+  asynRecord.c
+  drvAsyn.c
+  asynEpicsUtils.c
+  devAsynFloat32Array.c
+  devAsynFloat64.c
+  devAsynFloat64Array.c
+  devAsynFloat64TimeSeries.c
+  devAsynInt16Array.c
+  devAsynInt32.c
+  devAsynInt32Array.c
+  devAsynInt32TimeSeries.c
+  devAsynInt8Array.c
+  devAsynOctet.c
+  devAsynUInt32Digital.c
+  boSRQonOff.c
+  devCommonGpib.c
+  devSupportGpib.c
+  Generating Code...
+  Compiling...
+  drvAsynIPPort.c
+  drvAsynIPServerPort.c
+  drvAsynSerialPortWin32.c
+  asynCommonSyncIO.c
+  asynEnumBase.c
+  asynEnumSyncIO.c
+  asynFloat32ArrayBase.c
+  asynFloat32ArraySyncIO.c
+  asynFloat64ArrayBase.c
+  asynFloat64ArraySyncIO.c
+  asynFloat64Base.c
+  asynFloat64SyncIO.c
+  asynGenericPointerBase.c
+  asynGenericPointerSyncIO.c
+  asynInt16ArrayBase.c
+  asynInt16ArraySyncIO.c
+  asynInt32ArrayBase.c
+  asynInt32ArraySyncIO.c
+  asynInt32Base.c
+  asynInt32SyncIO.c
+  Generating Code...
+  Compiling...
+  asynInt8ArrayBase.c
+  asynInt8ArraySyncIO.c
+  asynOctetBase.c
+  asynOctetSyncIO.c
+  asynOptionSyncIO.c
+  asynStandardInterfacesBase.c
+  asynUInt32DigitalBase.c
+  asynUInt32DigitalSyncIO.c
+  asynInterposeCom.c
+  asynInterposeEos.c
+  asynInterposeFlush.c
+  asynShellCommands.c
+  drvNi1014.c
+  Generating Code...
+  asynPortClient.cpp
+  asynPortDriver.cpp
+  ParamListInvalidIndex.cpp
+  ParamListParamNotFound.cpp
+  ParamValNotDefined.cpp
+  ParamValStringSizeRequestTooBig.cpp
+  ParamValValueNotChanged.cpp
+  ParamValWrongType.cpp
+  paramVal.cpp
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\asyn.lib and object C:\epics\Debug_DLL\asyn.exp
+asynManager.obj : error LNK2019: unresolved external symbol __imp__ellAdd referenced in function _freeAsynUser
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__ellAdd
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__ellAdd
+asynManager.obj : error LNK2019: unresolved external symbol __imp__ellDelete referenced in function _createAsynUser
+asynManager.obj : error LNK2019: unresolved external symbol __imp__ellInsert referenced in function _queueRequest
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+asynManager.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__errlogPrintf
+asynManager.obj : error LNK2019: unresolved external symbol __imp__errlogVprintf referenced in function _traceVprintSource
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetStackSize@4 referenced in function _report
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsThreadGetStackSize@4
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsThreadGetStackSize@4
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadCreate@20 referenced in function _report
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsThreadCreate@20
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsThreadCreate@20
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetPrioritySelf@0 referenced in function _printThread
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetIdSelf@0 referenced in function _portThread
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadGetNameSelf@0 referenced in function _printThread
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadPrivateCreate@0 referenced in function _registerPort
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadPrivateSet@8 referenced in function _queueLockPort
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsThreadPrivateGet@4 referenced in function _queueLockPort
+asynManager.obj : error LNK2019: unresolved external symbol __imp__taskwdInsert referenced in function _portThread
+asynOctetBase.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynInterposeCom.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynInterposeEos.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynFloat64Base.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynGenericPointerBase.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+devCommonGpib.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsSnprintf
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__epicsGetStdout@0 referenced in function _asynOctetConnect
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsGetStdout@0
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsGetStdout@0
+drvAsyn.obj : error LNK2001: unresolved external symbol __imp__epicsGetStdout@0
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsGetStdout@0
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsGetStderr@0 referenced in function _setTraceFile
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsGetStderr@0
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsGetStderr@0
+asynInterposeEos.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynInterposeFlush.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynOctetBase.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynInterposeCom.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsStdoutPrintf
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsStrnEscapedFromRaw referenced in function _traceVprintIOSource
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsStrnEscapedFromRaw
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsStrnEscapedFromRaw
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsStrPrintEscaped referenced in function _traceVprintIOSource
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsStrPrintEscaped
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsStrPrintEscaped
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+asynInterposeEos.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+asynEpicsUtils.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsAssert
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsMutexOsiMustCreate@8 referenced in function _queueLockPort
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiMustCreate@8
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiMustCreate@8
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiMustCreate@8
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsMutexDestroy@4 referenced in function _registerPort
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__epicsMutexDestroy@4
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsMutexDestroy@4
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsMutexUnlock@4
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsMutexLock@4
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsMutexTryLock@4 referenced in function _reportPrintPort
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustCreate referenced in function _report
+asynCommonSyncIO.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustCreate
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustCreate
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustCreate
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsEventDestroy referenced in function _report
+asynCommonSyncIO.obj : error LNK2001: unresolved external symbol __imp__epicsEventDestroy
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsEventDestroy
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustTrigger referenced in function _queueRequest
+asynCommonSyncIO.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustTrigger
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustTrigger
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustTrigger
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsEventMustWait referenced in function _report
+asynCommonSyncIO.obj : error LNK2001: unresolved external symbol __imp__epicsEventMustWait
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsEventWaitWithTimeout referenced in function _waitConnect
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsEventWaitWithTimeout
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsTimeGetCurrent@4 referenced in function _exceptionDisconnect
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimeGetCurrent@4
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsTimeGetCurrent@4
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsTimeGetCurrent@4
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsTimeDiffInSeconds@8 referenced in function _autoConnectDevice
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimeDiffInSeconds@8
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsTimeDiffInSeconds@8
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsTimeDiffInSeconds@8
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsTimeToStrftime@16 referenced in function _printTime
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsTimeToStrftime@16
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueAllocate@8
+asynManager.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueAllocate@8
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueAllocate@8
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueAllocate@8
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueAllocate@8
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsTimerQueueCreateTimer@12 referenced in function _createAsynUser
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueCreateTimer@12
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueCreateTimer@12
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsTimerQueueCreateTimer@12
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsTimerStartDelay@12 referenced in function _queueRequest
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimerStartDelay@12
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsTimerStartDelay@12
+asynManager.obj : error LNK2019: unresolved external symbol __imp__epicsTimerCancel@4 referenced in function _cancelRequest
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsTimerCancel@4
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsTimerCancel@4
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynUInt32DigitalSyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInterposeCom.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInterposeEos.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInterposeFlush.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInt8ArraySyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynOctetBase.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynOctetSyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynOptionSyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynGenericPointerSyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInt16ArraySyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInt32ArraySyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynInt32SyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynEnumSyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynFloat32ArraySyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynFloat64ArraySyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynFloat64SyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynCommonSyncIO.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynManager.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+epicsInterruptibleSyscall.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynGpib.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__callocMustSucceed
+asynManager.obj : error LNK2019: unresolved external symbol __imp__mallocMustSucceed referenced in function _memMalloc
+asynEpicsUtils.obj : error LNK2001: unresolved external symbol __imp__mallocMustSucceed
+epicsInterruptibleSyscall.obj : error LNK2019: unresolved external symbol __imp__epicsSocketDestroy@4 referenced in function _epicsInterruptibleSyscallInterrupt
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsSocketDestroy@4
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsSocketDestroy@4
+epicsInterruptibleSyscall.obj : error LNK2019: unresolved external symbol __imp__epicsSocketSystemCallInterruptMechanismQuery referenced in function _epicsInterruptibleSyscallInterrupt
+epicsInterruptibleSyscall.obj : error LNK2019: unresolved external symbol __imp__cantProceed referenced in function _epicsInterruptibleSyscallMustCreate
+epicsInterruptibleSyscall.obj : error LNK2019: unresolved external symbol __imp__epicsSignalInstallSigAlarmIgnore@0 referenced in function _epicsInterruptibleSyscallArm
+epicsInterruptibleSyscall.obj : error LNK2019: unresolved external symbol __imp__epicsSignalRaiseSigAlarm@4 referenced in function _epicsInterruptibleSyscallInterrupt
+asynUInt32DigitalSyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+drvNi1014.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynOctetSyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynOptionSyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynStandardInterfacesBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynUInt32DigitalBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt32Base.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt32SyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt8ArrayBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt8ArraySyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt16ArrayBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt16ArraySyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt32ArrayBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynInt32ArraySyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynFloat64ArrayBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynFloat64ArraySyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynFloat64SyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynGenericPointerSyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynEnumBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynEnumSyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynFloat32ArrayBase.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynFloat32ArraySyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynGpib.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynPortDriver.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynEpicsUtils.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+asynCommonSyncIO.obj : error LNK2001: unresolved external symbol _epicsSnprintf
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynOctet.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+drvNi1014.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynInt32.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+asynGpib.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+asynPortDriver.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+devAsynFloat64.obj : error LNK2001: unresolved external symbol _epicsStdoutPrintf
+asynPortClient.obj : error LNK2019: unresolved external symbol _epicsStrDup referenced in function "public: __thiscall asynPortClient::asynPortClient(char const *,int,char const *,char const *,double)" (??0asynPortClient@@QAE@PBDH00N@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(class epicsTime const &)" (??0epicsTime@@QAE@ABV0@@Z) referenced in function "public: class epicsTime __thiscall epicsTime::operator+=(double const &)" (??YepicsTime@@QAE?AV0@ABN@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct epicsTimeStamp const &)" (??0epicsTime@@QAE@ABUepicsTimeStamp@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct epicsTimeStamp const &)" (??4epicsTime@@QAEAAV0@ABUepicsTimeStamp@@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct time_t_wrapper const &)" (??0epicsTime@@QAE@ABUtime_t_wrapper@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct time_t_wrapper const &)" (??4epicsTime@@QAEAAV0@ABUtime_t_wrapper@@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct local_tm_nano_sec const &)" (??0epicsTime@@QAE@ABUlocal_tm_nano_sec@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct local_tm_nano_sec const &)" (??4epicsTime@@QAEAAV0@ABUlocal_tm_nano_sec@@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct gm_tm_nano_sec const &)" (??0epicsTime@@QAE@ABUgm_tm_nano_sec@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct gm_tm_nano_sec const &)" (??4epicsTime@@QAEAAV0@ABUgm_tm_nano_sec@@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct timespec const &)" (??0epicsTime@@QAE@ABUtimespec@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct timespec const &)" (??4epicsTime@@QAEAAV0@ABUtimespec@@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: __thiscall epicsTime::epicsTime(struct l_fp const &)" (??0epicsTime@@QAE@ABUl_fp@@@Z) referenced in function "public: class epicsTime & __thiscall epicsTime::operator=(struct l_fp const &)" (??4epicsTime@@QAEAAV0@ABUl_fp@@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: class epicsTime __thiscall epicsTime::operator+(double const &)const " (??HepicsTime@@QBE?AV0@ABN@Z) referenced in function "public: class epicsTime __thiscall epicsTime::operator-(double const &)const " (??GepicsTime@@QBE?AV0@ABN@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: bool __thiscall epicsTime::operator<=(class epicsTime const &)const " (??NepicsTime@@QBE_NABV0@@Z) referenced in function "public: bool __thiscall epicsTime::operator>(class epicsTime const &)const " (??OepicsTime@@QBE_NABV0@@Z)
+asynPortClient.obj : error LNK2019: unresolved external symbol "public: bool __thiscall epicsTime::operator<(class epicsTime const &)const " (??MepicsTime@@QBE_NABV0@@Z) referenced in function "public: bool __thiscall epicsTime::operator>=(class epicsTime const &)const " (??PepicsTime@@QBE_NABV0@@Z)
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+asynInterposeCom.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+asynInterposeFlush.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+paramVal.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsStrDup
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__epicsMutexOsiCreate@8
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+asynPortDriver.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__interruptAccept
+asynInterposeCom.obj : error LNK2001: unresolved external symbol __imp__epicsStrCaseCmp
+paramVal.obj : error LNK2001: unresolved external symbol __imp__epicsStrCaseCmp
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__epicsStrCaseCmp
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsStrCaseCmp
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__epicsStrCaseCmp
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__callbackRequestProcessCallback
+devAsynOctet.obj : error LNK2019: unresolved external symbol __imp__scanIoInit referenced in function _createRingBuffer
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__scanIoInit
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__scanIoRequest
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__db_post_events
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
+devAsynOctet.obj : error LNK2019: unresolved external symbol __imp__dbScanUnlock referenced in function _createRingBuffer
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__dbGetFieldIndex referenced in function _special
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__dbNameToAddr referenced in function _init_record
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbNameToAddr
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__dbPutField referenced in function _cancelIOInterruptScan
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetPrec referenced in function _get_precision
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__recGblResetAlarms referenced in function _init_record
+devCommonGpib.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynInt32TimeSeries.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynFloat64TimeSeries.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+asynRecord.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__recGblFwdLink referenced in function _process
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetTimeStamp referenced in function _process
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__dbTranslateEscape referenced in function _performOctetIO
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbTranslateEscape
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__dbTranslateEscape
+asynRecord.obj : error LNK2019: unresolved external symbol __imp__epicsVsnprintf@16 referenced in function _reportError
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__dbAllocEntry
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__dbFindRecord
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__dbGetInfo
+devAsynInt8Array.obj : error LNK2019: unresolved external symbol __imp__scanOnce referenced in function _interruptCallback
+devCommonGpib.obj : error LNK2001: unresolved external symbol __imp__scanOnce
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__scanOnce
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__scanOnce
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__scanOnce
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__scanOnce
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynInt32Array.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynInt8Array.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynFloat32Array.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynFloat64Array.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+devAsynInt16Array.obj : error LNK2001: unresolved external symbol __imp__pdbbase
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__callbackRequest
+devAsynFloat64.obj : error LNK2001: unresolved external symbol __imp__callbackRequest
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__callbackRequest
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__callbackRequest
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__callbackRequest
+devAsynFloat64.obj : error LNK2019: unresolved external symbol __imp__dbProcess referenced in function _outputCallbackCallback
+devAsynInt32.obj : error LNK2001: unresolved external symbol __imp__dbProcess
+devAsynOctet.obj : error LNK2001: unresolved external symbol __imp__dbProcess
+devAsynUInt32Digital.obj : error LNK2001: unresolved external symbol __imp__dbProcess
+devAsynInt32.obj : error LNK2019: unresolved external symbol __imp__cvtRawToEngBpt referenced in function _processAo
+devAsynOctet.obj : error LNK2019: unresolved external symbol __imp__dbGet referenced in function _callbackSiWriteRead
+asynInterposeEos.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+asynInterposeFlush.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+devSupportGpib.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+drvAsynIPPort.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+drvAsynSerialPortWin32.obj : error LNK2001: unresolved external symbol __imp__iocshRegister@8
+devSupportGpib.obj : error LNK2019: unresolved external symbol _callbackRequestProcessCallback referenced in function _completeProcess
+drvAsynIPPort.obj : error LNK2019: unresolved external symbol __imp__epicsSocketCreate@12 referenced in function _connectIt
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsSocketCreate@12
+drvAsynIPPort.obj : error LNK2019: unresolved external symbol __imp__ipAddrToDottedIP@12 referenced in function _readIt
+drvAsynIPPort.obj : error LNK2019: unresolved external symbol __imp__hostToIPAddr@8 referenced in function _connectIt
+drvAsynIPPort.obj : error LNK2019: unresolved external symbol __imp__osiSockAttach@0 referenced in function _drvAsynIPPortConfigure
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__osiSockAttach@0
+drvAsynIPPort.obj : error LNK2019: unresolved external symbol __imp__epicsAtExit3 referenced in function _drvAsynIPPortConfigure
+drvAsynIPServerPort.obj : error LNK2001: unresolved external symbol __imp__epicsAtExit3
+asynShellCommands.obj : error LNK2001: unresolved external symbol __imp__epicsAtExit3
+drvAsynIPServerPort.obj : error LNK2019: unresolved external symbol __imp__epicsSocketAccept@12 referenced in function _connectionListener
+drvAsynIPServerPort.obj : error LNK2019: unresolved external symbol __imp__epicsSocketEnableAddressUseForDatagramFanout@4 referenced in function _createServerSocket
+drvAsynSerialPortWin32.obj : error LNK2019: unresolved external symbol __imp__epicsStrnCaseCmp referenced in function _drvAsynSerialPortConfigure
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__epicsEventWait referenced in function _asynSetEos
+drvNi1014.obj : error LNK2001: unresolved external symbol __imp__epicsEventWait
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__epicsStrnRawFromEscaped referenced in function _asynSetEos
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__gphInitPvt@8 referenced in function _asynFindEntry
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__gphFind@12 referenced in function _asynFindEntry
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__gphAdd@12 referenced in function _asynOctetConnect
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__gphDelete@12 referenced in function _asynOctetDisconnect
+asynShellCommands.obj : error LNK2019: unresolved external symbol __imp__registryFunctionFind referenced in function _asynRegisterTimeStampSource
+drvNi1014.obj : error LNK2019: unresolved external symbol __imp__epicsInterruptIsInterruptContext referenced in function _readRegister
+drvNi1014.obj : error LNK2019: unresolved external symbol __imp__epicsInterruptContextMessage referenced in function _ni1014
+drvNi1014.obj : error LNK2019: unresolved external symbol __imp__errPrintf referenced in function _ni1014Config
+drvNi1014.obj : error LNK2019: unresolved external symbol __imp__devRegisterAddress referenced in function _ni1014Config
+drvNi1014.obj : error LNK2019: unresolved external symbol __imp__devConnectInterrupt referenced in function _ni1014Config
+drvNi1014.obj : error LNK2019: unresolved external symbol __imp__devEnableInterruptLevel referenced in function _ni1014Config
+C:\epics\Debug_DLL\asyn.dll : fatal error LNK1120: 111 unresolved externals

@@ -1,0 +1,18 @@
+^C:\EPICS\BASE-3.15.6\SRC\LIBCOM\ENV\BLDENVDATA.PL
+cd O.Common
+perl ../env/bldEnvData.pl ..\..\..\configure
+cd C:\epics\base-3.15.6\src\libCom\
+^C:\EPICS\BASE-3.15.6\SRC\LIBCOM\ERROR\MAKESTATTBL.PL
+cd O.Common
+perl ../../../src/libCom/error/makeStatTbl.pl  C:\epics\include\devLib.h C:\epics\include\asLib.h C:\epics\include\dbAccessDefs.h C:\epics\include\devSup.h C:\epics\include\drvSup.h C:\epics\include\recSup.h C:\epics\include\dbStaticLib.h C:\epics\include\errMdef.h C:\epics\include\casdef.h C:\epics\include\gddAppFuncTable.h
+cd C:\epics\base-3.15.6\src\libCom\
+^C:\EPICS\BASE-3.15.6\SRC\LIBCOM\AS\ASLIB.Y
+cd .\as
+C:\epics\Debug_DLL\antelope.exe .\aslib.y
+move /Y y.tab.c ..\O.Common\asLib.c
+cd C:\epics\base-3.15.6\src\libCom\
+^C:\EPICS\BASE-3.15.6\SRC\LIBCOM\AS\ASLIB_LEX.L
+C:\epics\Debug_DLL\e_flex.exe -SC:\epics\include/flex.skel.static -8 -I as\asLib_lex.l
+move /Y lex.yy.c O.Common\asLib_lex.c
+^C:\EPICS\BASE-3.15.6\SRC\LIBCOM\MISC\MAKEEPICSVERSION.PL
+perl misc/makeEpicsVersion.pl -o  C:\epics\include/epicsVersion.h ../../configure/CONFIG_BASE_VERSION

@@ -307,6 +307,9 @@ xcopy /Y /Q  /D O.Common\menuConvert.h $(SolutionDir)include &gt; NUL
 xcopy /Y /Q  /D O.Common\*.dbd $(SolutionDir)dbd &gt; NUL
 </Command>
     </PostBuildEvent>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|Win32'">
     <ClCompile>

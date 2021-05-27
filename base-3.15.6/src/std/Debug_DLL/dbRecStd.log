@@ -1,0 +1,141 @@
+﻿  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  asSubRecordFunctions.c
+  devAaiSoft.c
+  devAaoSoft.c
+  devAiSoft.c
+  devAiSoftCallback.c
+  devAiSoftRaw.c
+  devAoSoft.c
+  devAoSoftCallback.c
+  devAoSoftRaw.c
+  devBiDbState.c
+  devBiSoft.c
+  devBiSoftCallback.c
+  devBiSoftRaw.c
+  devBoDbState.c
+  devBoSoft.c
+  devBoSoftCallback.c
+  devBoSoftRaw.c
+  devCalcoutSoft.c
+  devCalcoutSoftCallback.c
+  devEnviron.c
+  Generating Code...
+  Compiling...
+  devEventSoft.c
+  devGeneralTime.c
+  devHistogramSoft.c
+  devLiSoft.c
+  devLiSoftCallback.c
+  devLoSoft.c
+  devLoSoftCallback.c
+  devLsiSoft.c
+  devLsoSoft.c
+  devLsoSoftCallback.c
+  devMbbiDirectSoft.c
+  devMbbiDirectSoftCallback.c
+  devMbbiDirectSoftRaw.c
+  devMbbiSoft.c
+  devMbbiSoftCallback.c
+  devMbbiSoftRaw.c
+  devMbboDirectSoft.c
+  devMbboDirectSoftCallback.c
+  devMbboDirectSoftRaw.c
+  devMbboSoft.c
+  Generating Code...
+  Compiling...
+  devMbboSoftCallback.c
+  devMbboSoftRaw.c
+  devPrintfSoft.c
+  devPrintfSoftCallback.c
+  devSASoft.c
+  devSiSoft.c
+  devSiSoftCallback.c
+  devSoSoft.c
+  devSoSoftCallback.c
+  devStdio.c
+  devTimestamp.c
+  devWfSoft.c
+  arr.c
+  dbnd.c
+  sync.c
+  ts.c
+  aaiRecord.c
+  aaoRecord.c
+  aiRecord.c
+  aoRecord.c
+  Generating Code...
+  Compiling...
+  aSubRecord.c
+  biRecord.c
+  boRecord.c
+  calcoutRecord.c
+  calcRecord.c
+  compressRecord.c
+  dfanoutRecord.c
+  eventRecord.c
+  fanoutRecord.c
+  histogramRecord.c
+  longinRecord.c
+  longoutRecord.c
+  lsiRecord.c
+C:\epics\base-3.15.6\src\std\rec\lsiRecord.c(48,30): warning C4267: '=': conversion from 'size_t' to 'epicsUInt16', possible loss of data
+  lsoRecord.c
+C:\epics\base-3.15.6\src\std\rec\lsoRecord.c(52,30): warning C4267: '=': conversion from 'size_t' to 'epicsUInt16', possible loss of data
+  mbbiDirectRecord.c
+  mbbiRecord.c
+  mbboDirectRecord.c
+  mbboRecord.c
+  permissiveRecord.c
+  printfRecord.c
+C:\epics\base-3.15.6\src\std\rec\printfRecord.c(304,30): warning C4267: '=': conversion from 'size_t' to 'epicsUInt16', possible loss of data
+  Generating Code...
+  Compiling...
+  selRecord.c
+  seqRecord.c
+  stateRecord.c
+  stringinRecord.c
+  stringoutRecord.c
+  subArrayRecord.c
+  subRecord.c
+  waveformRecord.c
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\dbRecStd.lib and object C:\epics\Debug_DLL\dbRecStd.exp
+  dbRecStd.vcxproj -> C:\epics\Debug_DLL\dbRecStd.dll
+  7 File(s) copied

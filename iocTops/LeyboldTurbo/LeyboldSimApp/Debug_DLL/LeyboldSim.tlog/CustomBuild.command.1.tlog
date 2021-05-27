@@ -1,0 +1,5 @@
+^C:\EPICS\IOCTOPS\LEYBOLDTURBO\LEYBOLDSIMAPP\SRC\LEYBOLDSIMINCLUDE.DBD
+cd src
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_DLL\dbdExpand.pl  -I../O.Common -IC:\epics\include -IC:\epics\DBD -o ../O.Common/LeyboldSim.dbd LeyboldSimInclude.dbd
+cd C:\epics\iocTops\LeyboldTurbo\LeyboldSimApp\

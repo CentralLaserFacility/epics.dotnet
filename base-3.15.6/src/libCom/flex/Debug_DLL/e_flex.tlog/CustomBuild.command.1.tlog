@@ -1,0 +1,4 @@
+^C:\EPICS\BASE-3.15.6\SRC\LIBCOM\FLEX\PARSE.Y
+C:\epics\Debug_DLL\antelope.exe  -l -d parse.y
+move /Y y.tab.c O.Common\parse.c
+move /Y y.tab.h O.Common\parse.h

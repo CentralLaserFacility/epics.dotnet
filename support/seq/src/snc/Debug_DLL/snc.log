@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+  2 parsing conflicts.
+  analysis.c
+  builtin.c
+  gen_code.c
+  gen_ss_code.c
+  gen_tables.c
+  main.c
+  node.c
+  lexer.c
+  snl.c
+  sym_table.c
+  type_check.c
+  var_types.c
+  Generating Code...
+sym_table.obj : error LNK2019: unresolved external symbol __imp__gphInitPvt@8 referenced in function _sym_table_create
+sym_table.obj : error LNK2019: unresolved external symbol __imp__gphFind@12 referenced in function _sym_table_lookup
+sym_table.obj : error LNK2019: unresolved external symbol __imp__gphAdd@12 referenced in function _sym_table_insert
+sym_table.obj : error LNK2019: unresolved external symbol __imp__gphFreeMem@4 referenced in function _sym_table_destroy
+C:\epics\Debug_DLL\snc.exe : fatal error LNK1120: 4 unresolved externals

@@ -1,0 +1,16 @@
+﻿  Performing Custom Build Tools
+          1 file(s) moved.
+          1 file(s) moved.
+  epicsTempFile.cpp
+  ccl.c
+  dfa.c
+  ecs.c
+  gen.c
+  misc.c
+  nfa.c
+  parse.c
+  sym.c
+  tblcmp.c
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\e_flex.lib and object C:\epics\Debug_DLL\e_flex.exp
+  e_flex.vcxproj -> C:\epics\Debug_DLL\e_flex.exe

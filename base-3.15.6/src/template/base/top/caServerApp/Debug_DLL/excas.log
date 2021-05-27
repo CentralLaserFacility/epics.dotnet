@@ -1,0 +1,9 @@
+﻿  exAsyncPV.cc
+  exChannel.cc
+  exPV.cc
+  exScalarPV.cc
+  exServer.cc
+  exVectorPV.cc
+  main.cc
+  Generating Code...
+  excas.vcxproj -> C:\epics\Debug_DLL\excas.exe

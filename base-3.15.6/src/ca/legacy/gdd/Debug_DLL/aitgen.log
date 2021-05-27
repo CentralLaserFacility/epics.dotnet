@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug_DLL\) contains files shared from another project (gdd.vcxproj, genapps.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  aitGen.c
+  aitTypes.c
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\aitgen.lib and object C:\epics\Debug_DLL\aitgen.exp
+  aitgen.vcxproj -> C:\epics\Debug_DLL\aitgen.exe

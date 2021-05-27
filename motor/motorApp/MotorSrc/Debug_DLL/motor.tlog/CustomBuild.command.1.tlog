@@ -1,0 +1,6 @@
+^C:\EPICS\MOTOR\MOTORAPP\MOTORSRC\MOTORRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_DLL\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\dbd -o O.Common/motorRecord.h motorRecord.dbd
+^C:\EPICS\MOTOR\MOTORAPP\MOTORSRC\MOTORSUPPORT.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_DLL\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\dbd -o O.Common/motorSupport.h motorSupport.dbd

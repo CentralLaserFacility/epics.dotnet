@@ -1,0 +1,36 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+  drvIpac.c
+  drvTvme200.c
+  drvVipc310.c
+  drvVipc610.c
+  drvVipc616.c
+  drvXy9660.c
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\Ipac.lib and object C:\epics\Debug_DLL\Ipac.exp
+drvIpac.obj : error LNK2019: unresolved external symbol __imp__epicsSnprintf referenced in function _ipmReport
+drvIpac.obj : error LNK2019: unresolved external symbol __imp__epicsStdoutPrintf referenced in function _ipacReport
+drvIpac.obj : error LNK2019: unresolved external symbol _mallocMustSucceed referenced in function _ipmIntConnect
+drvIpac.obj : error LNK2019: unresolved external symbol _devReadProbe referenced in function _ipmCheck
+drvIpac.obj : error LNK2019: unresolved external symbol _devConnectInterrupt referenced in function _ipmIntConnect
+drvVipc616.obj : error LNK2001: unresolved external symbol _iocshRegister@8
+drvXy9660.obj : error LNK2001: unresolved external symbol _iocshRegister@8
+drvIpac.obj : error LNK2001: unresolved external symbol _iocshRegister@8
+drvTvme200.obj : error LNK2001: unresolved external symbol _iocshRegister@8
+drvVipc310.obj : error LNK2001: unresolved external symbol _iocshRegister@8
+drvVipc610.obj : error LNK2001: unresolved external symbol _iocshRegister@8
+drvXy9660.obj : error LNK2019: unresolved external symbol __imp__devRegisterAddress referenced in function _initialise
+drvTvme200.obj : error LNK2001: unresolved external symbol __imp__devRegisterAddress
+drvVipc310.obj : error LNK2001: unresolved external symbol __imp__devRegisterAddress
+drvVipc610.obj : error LNK2001: unresolved external symbol __imp__devRegisterAddress
+drvVipc616.obj : error LNK2001: unresolved external symbol __imp__devRegisterAddress
+drvXy9660.obj : error LNK2019: unresolved external symbol __imp__devEnableInterruptLevel referenced in function _initialise
+drvTvme200.obj : error LNK2001: unresolved external symbol __imp__devEnableInterruptLevel
+drvVipc310.obj : error LNK2001: unresolved external symbol __imp__devEnableInterruptLevel
+drvVipc610.obj : error LNK2001: unresolved external symbol __imp__devEnableInterruptLevel
+drvVipc616.obj : error LNK2001: unresolved external symbol __imp__devEnableInterruptLevel
+drvTvme200.obj : error LNK2019: unresolved external symbol __imp__epicsThreadSleep@8 referenced in function _irqCmd
+drvXy9660.obj : error LNK2001: unresolved external symbol __imp__epicsThreadSleep@8
+drvXy9660.obj : error LNK2019: unresolved external symbol _epicsAtExit3 referenced in function _initialise
+drvXy9660.obj : error LNK2019: unresolved external symbol _epicsAssert referenced in function _initialise
+C:\epics\Debug_DLL\Ipac.dll : fatal error LNK1120: 11 unresolved externals

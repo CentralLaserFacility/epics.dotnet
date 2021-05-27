@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\ktn98257\source\repos\epics.dotnet\Debug_DLL\pv.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ktn98257\source\repos\epics.dotnet\Debug_DLL\seq.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs>
+    <NonRecipeFileRef>
+      <FullPath>C:\Users\ktn98257\source\repos\epics.dotnet\base-3.15.5\src\ca\client\ca.vcxproj</FullPath>
+    </NonRecipeFileRef>
+    <NonRecipeFileRef>
+      <FullPath>C:\Users\ktn98257\source\repos\epics.dotnet\base-3.15.5\src\libCom\Com.vcxproj</FullPath>
+    </NonRecipeFileRef>
+    <NonRecipeFileRef>
+      <FullPath>C:\Users\ktn98257\source\repos\epics.dotnet\base-3.15.5\src\ioc\dbCore.vcxproj</FullPath>
+    </NonRecipeFileRef>
+    <NonRecipeFileRef>
+      <FullPath>C:\Users\ktn98257\source\repos\epics.dotnet\base-3.15.5\src\std\dbRecStd.vcxproj</FullPath>
+    </NonRecipeFileRef>
+  </NonRecipeFileRefs>
+</Project>

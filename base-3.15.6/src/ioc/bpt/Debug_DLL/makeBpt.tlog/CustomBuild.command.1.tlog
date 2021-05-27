@@ -1,0 +1,7 @@
+^C:\EPICS\BASE-3.15.6\SRC\IOC\BPT\MENUCONVERT.DBD.POD
+SET PERL5LIB=C:\epics\lib/perl
+perl -CSD C:\epics\Debug_DLL\dbdExpand.pl  -I../O.Common -IC:\epics\include -IDBD -o O.Common/menuConvert.dbd menuConvert.dbd.pod
+^C:\EPICS\BASE-3.15.6\SRC\IOC\BPT\O.COMMON\MENUCONVERT.DBD
+cd O.Common
+perl -CSD C:\epics\Debug_DLL\dbdToMenuH.pl -o menuConvert.h menuConvert.dbd
+cd C:\epics\base-3.15.6\src\ioc\bpt\

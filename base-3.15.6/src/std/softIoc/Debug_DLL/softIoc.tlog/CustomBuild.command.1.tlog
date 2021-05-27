@@ -1,0 +1,2 @@
+^C:\EPICS\BASE-3.15.6\SRC\STD\SOFTIOC\MAKEINSTALLDIR.PL
+perl makeInstallDir.pl C:\epics\ > O.Common\epicsInstallDir.h

@@ -1,0 +1,16 @@
+﻿  epicsTempFile.cpp
+  antelope.c
+  closure.c
+  error.c
+  lalr.c
+  lr0.c
+  mkpar.c
+  output.c
+  reader.c
+  skeleton.c
+  symtab.c
+  verbose.c
+  warshall.c
+  Generating Code...
+C:\epics\base-3.15.6\src\libCom\yacc\reader.c(282): warning C4715: 'keyword': not all control paths return a value
+  antelope.vcxproj -> C:\epics\Debug_DLL\antelope.exe
