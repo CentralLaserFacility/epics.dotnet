@@ -303,6 +303,9 @@
 xcopy /Y /Q /D /R generic\*.h  $(SolutionDir)include &gt; NUL
 </Command>
     </PreBuildEvent>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_LIB|Win32'">
     <ClCompile>

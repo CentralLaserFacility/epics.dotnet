@@ -42,26 +42,26 @@
     <ClCompile Include="WithAsynMain.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\base-3.15.5\src\ca\client\ca.vcxproj">
+    <ProjectReference Include="..\..\..\base-3.15.6\src\ca\client\ca.vcxproj">
       <Project>{02caf068-a7fc-463e-aa7e-72eeaf665826}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj">
+    <ProjectReference Include="..\..\..\base-3.15.6\src\ioc\dbCore.vcxproj">
       <Project>{440c585d-ad66-4738-941c-a87a1817a9be}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\base-3.15.5\src\std\dbRecStd.vcxproj">
+    <ProjectReference Include="..\..\..\base-3.15.6\src\libCom\Com.vcxproj">
+      <Project>{35e6aba4-e192-497d-ba02-efb79d1e0336}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\base-3.15.6\src\std\dbRecStd.vcxproj">
       <Project>{3b0e3542-cb89-4ffa-b004-eac882b3f277}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\base-3.15.5\src\tools\tools.vcxproj">
+    <ProjectReference Include="..\..\..\base-3.15.6\src\tools\tools.vcxproj">
       <Project>{5cce1c6a-2bd5-48bf-99e2-d29b58f91991}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\base-3.15.5\src\libCom\Com.vcxproj">
-      <Project>{35e6aba4-e192-497d-ba02-efb79d1e0336}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\..\support\asyn4-33\asyn\asyn.vcxproj">
       <Project>{c3ea0ff7-6039-4884-ba91-7b4619befea5}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\..\support\busy\busyApp\src\busy.vcxproj">
-      <Project>{a1c1777e-50d2-47dc-91bb-3b328362214a}</Project>
+      <Project>{98d6b430-c1e3-47d6-aecb-846a7ee2d938}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\..\support\seq\src\pv\pv.vcxproj">
       <Project>{a463e1aa-5c19-4964-8851-c4070a07aeb7}</Project>
@@ -72,32 +72,8 @@
     <ProjectReference Include="..\..\..\support\seq\src\snc\snc.vcxproj">
       <Project>{71608fb9-8dbe-42ad-93a1-0b521a6fb6aa}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\ACRSrc\ACRMotor.vcxproj">
-      <Project>{03917320-016d-4430-b8f1-4428b8b7d8bb}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\AcsSrc\Acs.vcxproj">
-      <Project>{d08cb5e7-0426-4a6d-9407-4def9959d76a}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\motorApp\AerotechSrc\Aerotech.vcxproj">
       <Project>{4ea30c3f-89e2-4da5-8aaf-bdecc5f819e4}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\AttocubeSrc\Attocube.vcxproj">
-      <Project>{8c4d9717-eff2-457b-bfc4-294a9bdb537a}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\ImsSrc\Ims.vcxproj">
-      <Project>{8f50c372-e2fe-4120-b10e-8a64b93326d5}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\KohzuSrc\KohzuMotor.vcxproj">
-      <Project>{475ed315-1ede-4a6a-ac74-8473f2f36810}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\MclennanSrc\Mclennan.vcxproj">
-      <Project>{a91c828f-2d6c-4c72-9cce-cbb0728d6f5d}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\MicosSrc\Micos.vcxproj">
-      <Project>{12e42356-ee63-4e0b-a20a-7b8b429578c1}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\MicroMoSrc\MicroMo.vcxproj">
-      <Project>{dcddd0cb-4afa-4f0c-a109-a7b0705fb920}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\motorApp\MotorSimSrc\motorSimSupport.vcxproj">
       <Project>{4d47582a-09dd-45a9-b652-921cbbb31a5e}</Project>
@@ -107,18 +83,6 @@
     </ProjectReference>
     <ProjectReference Include="..\..\motorApp\NewportSrc\Newport.vcxproj">
       <Project>{5b74a0bf-2aa3-4db0-8738-9730021d6097}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\OmsSrc\oms.vcxproj">
-      <Project>{9c63c890-bbe4-4891-bb8e-ca91374d770d}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\PiSrc\PI.vcxproj">
-      <Project>{607cd440-574a-4823-b0fd-4df3ec5f402c}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\SmartMotorSrc\SmartMotor.vcxproj">
-      <Project>{1b0e5c1f-dfe8-4464-846c-8fa4b989ae78}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\motorApp\SoftMotorSrc\softMotor.vcxproj">
-      <Project>{532ed83c-468b-41bf-9b39-5ad3b7880a54}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

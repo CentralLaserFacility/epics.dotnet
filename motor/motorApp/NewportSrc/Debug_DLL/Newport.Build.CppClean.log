@@ -1,0 +1,17 @@
+c:\epics\motor\motorapp\newportsrc\o.common\xps_trajectoryscan.c
+c:\epics\motor\motorapp\newportsrc\o.common\mm4005_trajectoryscan.c
+c:\epics\motor\motorapp\newportsrc\o.common\xpsslave.c
+c:\epics\debug_dll\newport.lib
+c:\epics\debug_dll\newport.exp
+c:\epics\motor\motorapp\newportsrc\debug_dll\xpsgatheringmain.obj
+c:\epics\motor\motorapp\newportsrc\debug_dll\xpsgatheringmain.ilk
+c:\epics\motor\motorapp\newportsrc\debug_dll\vc142.idb
+c:\epics\motor\motorapp\newportsrc\debug_dll\vc142.pdb
+c:\epics\debug_dll\newport.pdb
+c:\epics\debug_dll\newport.dll
+c:\epics\motor\motorapp\newportsrc\debug_dll\newport.tlog\cl.command.1.tlog
+c:\epics\motor\motorapp\newportsrc\debug_dll\newport.tlog\custombuild.command.1.tlog
+c:\epics\motor\motorapp\newportsrc\debug_dll\newport.tlog\custombuild.read.1.tlog
+c:\epics\motor\motorapp\newportsrc\debug_dll\newport.tlog\custombuild.write.1.tlog
+c:\epics\motor\motorapp\newportsrc\debug_dll\newport.tlog\link.command.1.tlog
+c:\epics\motor\motorapp\newportsrc\debug_dll\newport.tlog\newport.write.1u.tlog

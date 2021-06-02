@@ -1,6 +1,11 @@
+c:\epics\debug_dll\pv.lib
+c:\epics\debug_dll\pv.exp
 c:\epics\support\seq\src\pv\debug_dll\pv.obj
+c:\epics\support\seq\src\pv\debug_dll\pv.ilk
 c:\epics\support\seq\src\pv\debug_dll\vc142.idb
 c:\epics\support\seq\src\pv\debug_dll\vc142.pdb
 c:\epics\debug_dll\pv.pdb
+c:\epics\debug_dll\pv.dll
 c:\epics\support\seq\src\pv\debug_dll\pv.tlog\cl.command.1.tlog
 c:\epics\support\seq\src\pv\debug_dll\pv.tlog\link.command.1.tlog
+c:\epics\support\seq\src\pv\debug_dll\pv.tlog\pv.write.1u.tlog

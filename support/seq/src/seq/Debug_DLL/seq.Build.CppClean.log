@@ -1,3 +1,5 @@
+c:\epics\debug_dll\seq.lib
+c:\epics\debug_dll\seq.exp
 c:\epics\support\seq\src\seq\debug_dll\seqsoftioc_registerrecorddevicedriver.obj
 c:\epics\support\seq\src\seq\debug_dll\seq_ca.obj
 c:\epics\support\seq\src\seq\debug_dll\seq_cmd.obj
@@ -9,8 +11,11 @@ c:\epics\support\seq\src\seq\debug_dll\seq_qry.obj
 c:\epics\support\seq\src\seq\debug_dll\seq_queue.obj
 c:\epics\support\seq\src\seq\debug_dll\seq_task.obj
 c:\epics\support\seq\src\seq\debug_dll\subthreadsleep.obj
+c:\epics\support\seq\src\seq\debug_dll\seq.ilk
 c:\epics\support\seq\src\seq\debug_dll\vc142.idb
 c:\epics\support\seq\src\seq\debug_dll\vc142.pdb
 c:\epics\debug_dll\seq.pdb
+c:\epics\debug_dll\seq.dll
 c:\epics\support\seq\src\seq\debug_dll\seq.tlog\cl.command.1.tlog
 c:\epics\support\seq\src\seq\debug_dll\seq.tlog\link.command.1.tlog
+c:\epics\support\seq\src\seq\debug_dll\seq.tlog\seq.write.1u.tlog

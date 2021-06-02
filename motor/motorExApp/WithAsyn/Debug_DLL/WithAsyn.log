@@ -1,20 +1,92 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\std\dbRecStd.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\tools\tools.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\ACRSrc\ACRMotor.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\AcsSrc\Acs.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\AttocubeSrc\Attocube.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\ImsSrc\Ims.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\KohzuSrc\KohzuMotor.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\MclennanSrc\Mclennan.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\MicosSrc\Micos.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\MicroMoSrc\MicroMo.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\OmsSrc\oms.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\PiSrc\PI.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\SmartMotorSrc\SmartMotor.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\motorApp\SoftMotorSrc\softMotor.vcxproj' does not exist.
-  WithAsyn_registerRecordDeviceDriver.cpp
+﻿  WithAsyn_registerRecordDeviceDriver.cpp
   WithAsynMain.c
-LINK : fatal error LNK1104: cannot open file 'C:\epics\Debug_DLL\Aerotech.lib'
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMCB4B referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devIM483SM referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devIM483PL referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMDrive referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPM304 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMicos referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMVP2001 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIC844 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIC630 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIC848 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIC662 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIC862 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIC663 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIE710 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIE516 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIE517 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devPIE816 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devOMS referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devOms58 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMAXv referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devOmsPC68 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devMotorSoft referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSmartMotor referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_dset_devSC800 referenced in function "void __cdecl `dynamic initializer for 'devsl''(void)" (??__Edevsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvIM483PL referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvIM483SM referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvMAXv referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvMCB4B referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvMDrive referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvMVP2001 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvMicos referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvOms referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvOms58 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvOmsPC68 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIC630 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIC662 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIC663 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIC844 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIC848 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIC862 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIE516 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIE517 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIE710 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPIE816 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvPM304 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvSC800 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_drvSmartMotor referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_drvet_motorANC150 referenced in function "void __cdecl `dynamic initializer for 'drvsl''(void)" (??__Edrvsl@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_ACRMotorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_ANC150Register referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_AcsRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_IMSmotorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_ImsMDrivePlusMotorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_MAX_trajectoryScanRegistrar referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_MCB4BRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_MVP2001Register referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_MclennanRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_OmsMAXvRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_OmsPC68Register referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIC630Register referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIC662motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIC663motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIC848motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIC862motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIE516motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIE517motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIE710motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PIE816motorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_PImotorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_SC800Register referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_SMChydraRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_SmartMotormotorRegister referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_func_oms58Registrar referenced in function _WithAsyn_registerRecordDeviceDriver
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvIM483PLdebug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvIM483SMdebug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvMDrivedebug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvOmsPC68debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIC630debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIC662debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIC663debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIC844debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIC848debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIC862debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIE516debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIE517debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIE710debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvPIE816debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvSC800debug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+WithAsyn_registerRecordDeviceDriver.obj : error LNK2019: unresolved external symbol __imp__pvar_int_drvSmartMotordebug referenced in function "void __cdecl `dynamic initializer for 'vardefs''(void)" (??__Evardefs@@YAXXZ)
+C:\epics\Debug_DLL\WithAsyn.exe : fatal error LNK1120: 89 unresolved externals

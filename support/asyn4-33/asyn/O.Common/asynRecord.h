@@ -10,13 +10,6 @@
 #include "epicsTime.h"
 
 typedef enum {
-    serialSBIT_unknown              /* Unknown */,
-    serialSBIT_1                    /* 1 */,
-    serialSBIT_2                    /* 2 */
-} serialSBIT;
-#define serialSBIT_NUM_CHOICES 3
-
-typedef enum {
     serialFCTL_unknown              /* Unknown */,
     serialFCTL_None                 /* None */,
     serialFCTL_Hardware             /* Hardware */
@@ -24,11 +17,12 @@ typedef enum {
 #define serialFCTL_NUM_CHOICES 3
 
 typedef enum {
-    serialMCTL_unknown              /* Unknown */,
-    serialMCTL_CLOCAL               /* CLOCAL */,
-    serialMCTL_Yes                  /* YES */
-} serialMCTL;
-#define serialMCTL_NUM_CHOICES 3
+    asynINTERFACE_OCTET             /* asynOctet */,
+    asynINTERFACE_INT32             /* asynInt32 */,
+    asynINTERFACE_UINT32            /* asynUInt32Digital */,
+    asynINTERFACE_FLOAT64           /* asynFloat64 */
+} asynINTERFACE;
+#define asynINTERFACE_NUM_CHOICES 4
 
 typedef enum {
     gpibACMD_None                   /* None */,
@@ -41,22 +35,71 @@ typedef enum {
 #define gpibACMD_NUM_CHOICES 6
 
 typedef enum {
+    serialMCTL_unknown              /* Unknown */,
+    serialMCTL_CLOCAL               /* CLOCAL */,
+    serialMCTL_Yes                  /* YES */
+} serialMCTL;
+#define serialMCTL_NUM_CHOICES 3
+
+typedef enum {
+    serialPRTY_unknown              /* Unknown */,
+    serialPRTY_None                 /* None */,
+    serialPRTY_Even                 /* Even */,
+    serialPRTY_Odd                  /* Odd */
+} serialPRTY;
+#define serialPRTY_NUM_CHOICES 4
+
+typedef enum {
+    asynTMOD_Write_Read             /* Write/Read */,
+    asynTMOD_Write                  /* Write */,
+    asynTMOD_Read                   /* Read */,
+    asynTMOD_Flush                  /* Flush */,
+    asynTMOD_NoIO                   /* NoI/O */
+} asynTMOD;
+#define asynTMOD_NUM_CHOICES 5
+
+typedef enum {
+    gpibUCMD_None                   /* None */,
+    gpibUCMD_Device_Clear__DCL_     /* Device Clear (DCL) */,
+    gpibUCMD_Local_Lockout__LL0_    /* Local Lockout (LL0) */,
+    gpibUCMD_Serial_Poll_Disable__SPD_ /* Serial Poll Disable (SPD) */,
+    gpibUCMD_Serial_Poll_Enable__SPE_ /* Serial Poll Enable (SPE) */,
+    gpibUCMD_Unlisten__UNL_         /* Unlisten (UNL) */,
+    gpibUCMD_Untalk__UNT_           /* Untalk (UNT) */
+} gpibUCMD;
+#define gpibUCMD_NUM_CHOICES 7
+
+typedef enum {
     asynCONNECT_Disconnect          /* Disconnect */,
     asynCONNECT_Connect             /* Connect */
 } asynCONNECT;
 #define asynCONNECT_NUM_CHOICES 2
 
 typedef enum {
-    asynTRACE_Off                   /* Off */,
-    asynTRACE_On                    /* On */
-} asynTRACE;
-#define asynTRACE_NUM_CHOICES 2
+    asynEOMREASONNone               /* None */,
+    asynEOMREASONCNT                /* Count */,
+    asynEOMREASONEOS                /* Eos */,
+    asynEOMREASONCNTEOS             /* Count Eos */,
+    asynEOMREASONEND                /* End */,
+    asynEOMREASONCNTEND             /* Count End */,
+    asynEOMREASONEOSEND             /* Eos End */,
+    asynEOMREASONCNTEOSEND          /* Count Eos End */
+} asynEOMREASON;
+#define asynEOMREASON_NUM_CHOICES 8
 
 typedef enum {
-    asynENABLE_Disable              /* Disable */,
-    asynENABLE_Enable               /* Enable */
-} asynENABLE;
-#define asynENABLE_NUM_CHOICES 2
+    serialIX_unknown                /* Unknown */,
+    serialIX_No                     /* No */,
+    serialIX_Yes                    /* Yes */
+} serialIX;
+#define serialIX_NUM_CHOICES 3
+
+typedef enum {
+    asynFMT_ASCII                   /* ASCII */,
+    asynFMT_Hybrid                  /* Hybrid */,
+    asynFMT_Binary                  /* Binary */
+} asynFMT;
+#define asynFMT_NUM_CHOICES 3
 
 typedef enum {
     serialBAUD_unknown              /* Unknown */,
@@ -79,23 +122,29 @@ typedef enum {
 #define serialBAUD_NUM_CHOICES 16
 
 typedef enum {
-    asynEOMREASONNone               /* None */,
-    asynEOMREASONCNT                /* Count */,
-    asynEOMREASONEOS                /* Eos */,
-    asynEOMREASONCNTEOS             /* Count Eos */,
-    asynEOMREASONEND                /* End */,
-    asynEOMREASONCNTEND             /* Count End */,
-    asynEOMREASONEOSEND             /* Eos End */,
-    asynEOMREASONCNTEOSEND          /* Count Eos End */
-} asynEOMREASON;
-#define asynEOMREASON_NUM_CHOICES 8
+    ipDRTO_unknown                  /* Unknown */,
+    ipDRTO_No                       /* No */,
+    ipDRTO_Yes                      /* Yes */
+} ipDRTO;
+#define ipDRTO_NUM_CHOICES 3
 
 typedef enum {
-    serialIX_unknown                /* Unknown */,
-    serialIX_No                     /* No */,
-    serialIX_Yes                    /* Yes */
-} serialIX;
-#define serialIX_NUM_CHOICES 3
+    asynAUTOCONNECT_noAutoConnect   /* noAutoConnect */,
+    asynAUTOCONNECT_autoConnect     /* autoConnect */
+} asynAUTOCONNECT;
+#define asynAUTOCONNECT_NUM_CHOICES 2
+
+typedef enum {
+    asynTRACE_Off                   /* Off */,
+    asynTRACE_On                    /* On */
+} asynTRACE;
+#define asynTRACE_NUM_CHOICES 2
+
+typedef enum {
+    asynENABLE_Disable              /* Disable */,
+    asynENABLE_Enable               /* Enable */
+} asynENABLE;
+#define asynENABLE_NUM_CHOICES 2
 
 typedef enum {
     serialDBIT_unknown              /* Unknown */,
@@ -107,60 +156,11 @@ typedef enum {
 #define serialDBIT_NUM_CHOICES 5
 
 typedef enum {
-    asynFMT_ASCII                   /* ASCII */,
-    asynFMT_Hybrid                  /* Hybrid */,
-    asynFMT_Binary                  /* Binary */
-} asynFMT;
-#define asynFMT_NUM_CHOICES 3
-
-typedef enum {
-    serialPRTY_unknown              /* Unknown */,
-    serialPRTY_None                 /* None */,
-    serialPRTY_Even                 /* Even */,
-    serialPRTY_Odd                  /* Odd */
-} serialPRTY;
-#define serialPRTY_NUM_CHOICES 4
-
-typedef enum {
-    asynAUTOCONNECT_noAutoConnect   /* noAutoConnect */,
-    asynAUTOCONNECT_autoConnect     /* autoConnect */
-} asynAUTOCONNECT;
-#define asynAUTOCONNECT_NUM_CHOICES 2
-
-typedef enum {
-    asynTMOD_Write_Read             /* Write/Read */,
-    asynTMOD_Write                  /* Write */,
-    asynTMOD_Read                   /* Read */,
-    asynTMOD_Flush                  /* Flush */,
-    asynTMOD_NoIO                   /* NoI/O */
-} asynTMOD;
-#define asynTMOD_NUM_CHOICES 5
-
-typedef enum {
-    ipDRTO_unknown                  /* Unknown */,
-    ipDRTO_No                       /* No */,
-    ipDRTO_Yes                      /* Yes */
-} ipDRTO;
-#define ipDRTO_NUM_CHOICES 3
-
-typedef enum {
-    asynINTERFACE_OCTET             /* asynOctet */,
-    asynINTERFACE_INT32             /* asynInt32 */,
-    asynINTERFACE_UINT32            /* asynUInt32Digital */,
-    asynINTERFACE_FLOAT64           /* asynFloat64 */
-} asynINTERFACE;
-#define asynINTERFACE_NUM_CHOICES 4
-
-typedef enum {
-    gpibUCMD_None                   /* None */,
-    gpibUCMD_Device_Clear__DCL_     /* Device Clear (DCL) */,
-    gpibUCMD_Local_Lockout__LL0_    /* Local Lockout (LL0) */,
-    gpibUCMD_Serial_Poll_Disable__SPD_ /* Serial Poll Disable (SPD) */,
-    gpibUCMD_Serial_Poll_Enable__SPE_ /* Serial Poll Enable (SPE) */,
-    gpibUCMD_Unlisten__UNL_         /* Unlisten (UNL) */,
-    gpibUCMD_Untalk__UNT_           /* Untalk (UNT) */
-} gpibUCMD;
-#define gpibUCMD_NUM_CHOICES 7
+    serialSBIT_unknown              /* Unknown */,
+    serialSBIT_1                    /* 1 */,
+    serialSBIT_2                    /* 2 */
+} serialSBIT;
+#define serialSBIT_NUM_CHOICES 3
 
 typedef struct asynRecord {
     char                name[61];   /* Record Name */

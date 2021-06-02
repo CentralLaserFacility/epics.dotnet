@@ -1,16 +1,76 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug_DLL\) contains files shared from another project (XPSGatheringMain.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Performing Custom Build Tools
   XPS_trajectoryScan.st
-  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
-  operable program or batch file.
   Performing Custom Build Tools
   MM4005_trajectoryScan.st
-  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
-  operable program or batch file.
   Performing Custom Build Tools
   xpsSlave.st
-  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
-  operable program or batch file.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: Custom build for 'XPS_trajectoryScan.st;MM4005_trajectoryScan.st;xpsSlave.st' exited with code 9009.
+  AG_CONEX.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  AG_UC.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  asynOctetSocket.cpp
+  devESP300.cc
+  devMM3000.cc
+  devMM4000.cc
+  devPM500.cc
+  drvESP300.cc
+  drvMM3000.cc
+  drvMM4000.cc
+  drvPM500.cc
+  HXPDriver.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  hxp_drivers.cpp
+  NewportRegister.cc
+  SMC100Driver.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  tclCall.cc
+  XPSAxis.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  XPSController.cpp
+C:\epics\include\asynPortDriver.h(189,29): warning C4251: 'asynPortDriver::params': class 'std::vector<paramList *,std::allocator<paramList *>>' needs to have dll-interface to be used by clients of class 'asynPortDriver'
+C:\epics\include\asynPortDriver.h(189): message : see declaration of 'std::vector<paramList *,std::allocator<paramList *>>'
+  XPS_C8_drivers.cpp
+  Generating Code...
+  drvMM4000Asyn.c
+  drvXPSAsyn.c
+  drvXPSAsynAux.c
+  MM4005_trajectoryScan.c
+MM4005_trajectoryScan.st(387,33): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
+  xpsSlave.c
+xpsSlave.st(52,30): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(52,30): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(66,125): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(66,125): message : placeholders and their parameters expect 3 variadic arguments, but 4 were provided
+xpsSlave.st(82,30): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(82,30): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(95,27): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(95,27): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(100,27): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(100,27): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(102,34): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(102,34): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(113,49): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(113,49): message : placeholders and their parameters expect 1 variadic arguments, but 4 were provided
+xpsSlave.st(118,32): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(118,32): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(128,34): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(128,34): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+xpsSlave.st(134,30): warning C4474: 'printf' : too many arguments passed for format string
+xpsSlave.st(134,30): message : placeholders and their parameters expect 0 variadic arguments, but 4 were provided
+  XPS_trajectoryScan.c
+XPS_trajectoryScan.st(625,34): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
+  strtok_r.c
+  XPSAsynInterpose.c
+  XPSGathering.c
+  XPSGathering2.c
+  XPSGatheringRegister.c
+  xps_ftp.c
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\Newport.lib and object C:\epics\Debug_DLL\Newport.exp
+  Newport.vcxproj -> C:\epics\Debug_DLL\Newport.dll

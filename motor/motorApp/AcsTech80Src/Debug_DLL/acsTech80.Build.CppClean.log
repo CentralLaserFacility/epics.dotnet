@@ -1,0 +1,13 @@
+c:\epics\debug_dll\acstech80.lib
+c:\epics\debug_dll\acstech80.exp
+c:\epics\motor\motorapp\acstech80src\debug_dll\acstech80register.obj
+c:\epics\motor\motorapp\acstech80src\debug_dll\devspiiplus.obj
+c:\epics\motor\motorapp\acstech80src\debug_dll\drvspiiplus.obj
+c:\epics\motor\motorapp\acstech80src\debug_dll\acstech80.ilk
+c:\epics\motor\motorapp\acstech80src\debug_dll\vc142.idb
+c:\epics\motor\motorapp\acstech80src\debug_dll\vc142.pdb
+c:\epics\debug_dll\acstech80.pdb
+c:\epics\debug_dll\acstech80.dll
+c:\epics\motor\motorapp\acstech80src\debug_dll\acstech80.tlog\acstech80.write.1u.tlog
+c:\epics\motor\motorapp\acstech80src\debug_dll\acstech80.tlog\cl.command.1.tlog
+c:\epics\motor\motorapp\acstech80src\debug_dll\acstech80.tlog\link.command.1.tlog

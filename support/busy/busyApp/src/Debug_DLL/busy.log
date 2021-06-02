@@ -1,39 +1,8 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\tools\tools.vcxproj' does not exist.
-  Performing Custom Build Tools
+﻿  Performing Custom Build Tools
   busyRecord.c
   devBusyAsyn.c
   devBusySoft.c
   devBusySoftRaw.c
   Generating Code...
      Creating library C:\epics\Debug_DLL\busy.lib and object C:\epics\Debug_DLL\busy.exp
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__callbackRequestDelayed referenced in function _process
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__dbScanLock referenced in function _myCallbackFunc
-devBusyAsyn.obj : error LNK2001: unresolved external symbol __imp__dbScanLock
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__dbScanUnlock referenced in function _myCallbackFunc
-devBusyAsyn.obj : error LNK2001: unresolved external symbol __imp__dbScanUnlock
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__dbGetFieldIndex referenced in function _get_enum_str
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__dbProcess referenced in function _myCallbackFunc
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__dbGetLink referenced in function _process
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__dbPutLink referenced in function _writeValue
-devBusySoft.obj : error LNK2001: unresolved external symbol __imp__dbPutLink
-devBusySoftRaw.obj : error LNK2001: unresolved external symbol __imp__dbPutLink
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__epicsAssert referenced in function _busyRecordSizeOffset
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__db_post_events referenced in function _monitor
-devBusyAsyn.obj : error LNK2001: unresolved external symbol __imp__db_post_events
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblRecordError referenced in function _init_record
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetPrec referenced in function _get_precision
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblInitConstantLink referenced in function _init_record
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblResetAlarms referenced in function _monitor
-devBusyAsyn.obj : error LNK2001: unresolved external symbol __imp__recGblResetAlarms
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblSetSevr referenced in function _process
-devBusyAsyn.obj : error LNK2001: unresolved external symbol __imp__recGblSetSevr
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblFwdLink referenced in function _process
-devBusyAsyn.obj : error LNK2001: unresolved external symbol __imp__recGblFwdLink
-busyRecord.obj : error LNK2019: unresolved external symbol __imp__recGblGetTimeStamp referenced in function _process
-devBusyAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsMutexOsiCreate@8 referenced in function _initBusy
-devBusyAsyn.obj : error LNK2019: unresolved external symbol __imp__callocMustSucceed referenced in function _initBusy
-devBusyAsyn.obj : error LNK2019: unresolved external symbol __imp__callbackRequestProcessCallback referenced in function _processCallback
-devBusyAsyn.obj : error LNK2019: unresolved external symbol __imp__epicsStdoutPrintf referenced in function _initBusy
-C:\epics\Debug_DLL\busy.dll : fatal error LNK1120: 20 unresolved externals
+  busy.vcxproj -> C:\epics\Debug_DLL\busy.dll

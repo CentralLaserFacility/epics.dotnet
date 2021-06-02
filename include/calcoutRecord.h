@@ -12,14 +12,6 @@
 #include "postfix.h"
 
 typedef enum {
-    calcoutINAV_EXT_NC              /* Ext PV NC */,
-    calcoutINAV_EXT                 /* Ext PV OK */,
-    calcoutINAV_LOC                 /* Local PV */,
-    calcoutINAV_CON                 /* Constant */
-} calcoutINAV;
-#define calcoutINAV_NUM_CHOICES 4
-
-typedef enum {
     calcoutOOPT_Every_Time          /* Every Time */,
     calcoutOOPT_On_Change           /* On Change */,
     calcoutOOPT_When_Zero           /* When Zero */,
@@ -28,6 +20,14 @@ typedef enum {
     calcoutOOPT_Transition_To_Non_zero /* Transition To Non-zero */
 } calcoutOOPT;
 #define calcoutOOPT_NUM_CHOICES 6
+
+typedef enum {
+    calcoutINAV_EXT_NC              /* Ext PV NC */,
+    calcoutINAV_EXT                 /* Ext PV OK */,
+    calcoutINAV_LOC                 /* Local PV */,
+    calcoutINAV_CON                 /* Constant */
+} calcoutINAV;
+#define calcoutINAV_NUM_CHOICES 4
 
 typedef enum {
     calcoutDOPT_Use_VAL             /* Use CALC */,

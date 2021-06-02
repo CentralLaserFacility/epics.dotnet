@@ -1,21 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
-  pv.c
+﻿  pv.c
      Creating library C:\epics\Debug_DLL\pv.lib and object C:\epics\Debug_DLL\pv.exp
-pv.obj : error LNK2019: unresolved external symbol __imp__errlogSevPrintf referenced in function _pvSysAttach
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_message@4 referenced in function _pvCaEventHandler
-pv.obj : error LNK2019: unresolved external symbol __imp__epicsTimeGetCurrent@4 referenced in function _pvTimeGetCurrentDouble
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_element_count@4 referenced in function _pvVarGetCount
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_puser@4 referenced in function _pvCaConnectionHandler
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_context_create@4 referenced in function _pvSysCreate
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_create_channel@20 referenced in function _pvVarCreate
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_clear_channel@4 referenced in function _pvVarDestroy
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_array_put@16 referenced in function _pvVarPutNoBlock
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_array_put_callback@24 referenced in function _pvVarPutCallback
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_array_get_callback@20 referenced in function _pvVarGetCallback
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_create_subscription@28 referenced in function _pvVarMonitorOn
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_flush_io@0 referenced in function _pvSysFlush
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_current_context@0 referenced in function _pvSysAttach
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_attach_context@4 referenced in function _pvSysAttach
-pv.obj : error LNK2019: unresolved external symbol __imp__ca_clear_event@4 referenced in function _pvVarMonitorOff
-C:\epics\Debug_DLL\pv.dll : fatal error LNK1120: 16 unresolved externals
+  pv.vcxproj -> C:\epics\Debug_DLL\pv.dll

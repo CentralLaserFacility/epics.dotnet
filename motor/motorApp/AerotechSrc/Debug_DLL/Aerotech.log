@@ -1,8 +1,18 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ca\client\ca.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\ioc\dbCore.vcxproj' does not exist.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1966,5): warning : The referenced project '..\..\..\base-3.15.5\src\libCom\Com.vcxproj' does not exist.
-  Performing Custom Build Tools
+﻿  Performing Custom Build Tools
   EnsembleTrajectoryScan.st
-  'C:\epics\Debug_DLL\snc.exe' is not recognized as an internal or external command,
-  operable program or batch file.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: Custom build for 'EnsembleTrajectoryScan.st' exited with code 9009.
+  AerotechRegister.cc
+  devSoloist.cc
+  drvA3200Asyn.cc
+  drvEnsembleAsyn.cc
+  drvSoloist.cc
+  Generating Code...
+  concatString.c
+  EnsembleTrajectoryScan.c
+EnsembleTrajectoryScan.st(823,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+EnsembleTrajectoryScan.st(1464,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+EnsembleTrajectoryScan.st(1287,32): warning C4101: 'dtime': unreferenced local variable
+EnsembleTrajectoryScan.st(1800,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+EnsembleTrajectoryScan.st(1841,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+     Creating library C:\epics\Debug_DLL\Aerotech.lib and object C:\epics\Debug_DLL\Aerotech.exp
+  Aerotech.vcxproj -> C:\epics\Debug_DLL\Aerotech.dll

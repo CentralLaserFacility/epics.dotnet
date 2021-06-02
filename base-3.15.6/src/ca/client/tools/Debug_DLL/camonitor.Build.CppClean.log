@@ -1,6 +1,9 @@
 c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\tool_lib.obj
 c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\catoolsvc142.idb
 c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\catoolsvc142.pdb
-c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\tool_lib.sbr
+c:\epics\debug_dll\camonitor.pdb
+c:\epics\debug_dll\camonitor.exe
+c:\epics\debug_dll\camonitor.bsc
+c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\camonitor.tlog\bscmake.command.1.tlog
 c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\camonitor.tlog\cl.command.1.tlog
 c:\epics\base-3.15.6\src\ca\client\tools\debug_dll\camonitor.tlog\link.command.1.tlog
