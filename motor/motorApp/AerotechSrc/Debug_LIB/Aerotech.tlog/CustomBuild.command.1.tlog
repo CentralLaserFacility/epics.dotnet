@@ -1,0 +1,3 @@
+^C:\EPICS\MOTOR\MOTORAPP\AEROTECHSRC\ENSEMBLETRAJECTORYSCAN.ST
+cl -C -E               -nologo -D__STDC__=0 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -I./O.Common -IC:\epics\include/compiler/msvc -IC:\epics\include/os/WIN32 -IC:\epics\include -IC:\epics\include/os/WIN32  EnsembleTrajectoryScan.st > O.Common\EnsembleTrajectoryScan.i
+C:\epics\Debug_LIB\snc.exe     O.Common\EnsembleTrajectoryScan.i -o O.Common\EnsembleTrajectoryScan.c

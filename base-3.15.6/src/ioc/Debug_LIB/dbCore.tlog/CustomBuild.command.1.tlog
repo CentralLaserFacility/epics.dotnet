@@ -1,0 +1,96 @@
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DBTEMPLATE\DBLOADTEMPLATE.Y
+cd dbtemplate
+C:\epics\Debug_LIB\antelope.exe  -bdbLoadTemplate dbLoadTemplate.y
+move /Y dbLoadTemplate.tab.c ..\O.Common\dbLoadTemplate.c
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DBTEMPLATE\DBLOADTEMPLATE_LEX.L
+C:\epics\Debug_LIB\e_flex.exe -SC:\epics\include/flex.skel.static -8 -I dbtemplate/dbLoadTemplate_lex.l
+move /Y lex.yy.c O.Common/dbLoadTemplate_lex.c
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\DBCOMMONRECORD.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl -o ../O.Common/dbCommon.h dbCommonRecord.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUALARMSTAT.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuAlarmStat.h menuAlarmStat.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUFTYPE.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuFtype.h menuFtype.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUIVOA.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuIvoa.h menuIvoa.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUOMSL.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuOmsl.h menuOmsl.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUPINI.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuPini.h menuPini.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUPRIORITY.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuPriority.h menuPriority.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUSCAN.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuScan.h menuScan.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUYESNO.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuYesNo.h menuYesNo.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DBSTATIC\DBYACC.Y
+cd dbstatic
+C:\epics\Debug_LIB\antelope.exe  -bdbYacc dbYacc.y
+move /Y dbYacc.tab.c ..\O.Common\dbYacc.c
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DBSTATIC\DBLEX.L
+C:\epics\Debug_LIB\e_flex.exe -SC:\epics\include/flex.skel.static -8 -I dbstatic/dbLex.l
+move /Y lex.yy.c O.Common/dbLex.c
+^C:\EPICS\BASE-3.15.6\SRC\IOC\MISC\DBCORE.DBD
+cd misc
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/dbCore.h dbCore.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\MISC\DLLOAD.DBD
+cd misc
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/dlload.h dlload.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\MISC\SYSTEM.DBD
+cd misc
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/system.h system.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUALARMSEVR.DBD.POD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdExpand.pl  -I../O.Common -IC:\epics\include -IC:\epics\DBD  -o ../O.Common/menuAlarmSevr.dbd menuAlarmSevr.dbd.pod
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUPOST.DBD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I../O.Common -IC:\epics\include -o ../O.Common/menuPost.h menuPost.dbd
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\DB\MENUSIMM.DBD.POD
+cd db
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdExpand.pl  -I../O.Common -IC:\epics\include -IC:\epics\DBD  -o ../O.Common/menuSimm.dbd menuSimm.dbd.pod
+cd C:\epics\base-3.15.6\src\ioc\
+^C:\EPICS\BASE-3.15.6\SRC\IOC\O.COMMON\MENUSIMM.DBD
+cd O.Common
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -I. -IC:\epics\include -IC:\epics\DBD -o menuSimm.h menuSimm.dbd
+cd C:\epics\base-3.15.6\src\ioc\

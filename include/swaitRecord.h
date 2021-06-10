@@ -16,13 +16,6 @@ typedef enum {
 #define swaitINAP_NUM_CHOICES 2
 
 typedef enum {
-    swaitINAV_PV_OK                 /* PV OK */,
-    swaitINAV_PV_BAD                /* PV BAD */,
-    swaitINAV_No_PV                 /* No PV */
-} swaitINAV;
-#define swaitINAV_NUM_CHOICES 3
-
-typedef enum {
     swaitOOPT_Every_Time            /* Every Time */,
     swaitOOPT_On_Change             /* On Change */,
     swaitOOPT_When_Zero             /* When Zero */,
@@ -32,6 +25,13 @@ typedef enum {
     swaitOOPT_Never                 /* Never */
 } swaitOOPT;
 #define swaitOOPT_NUM_CHOICES 7
+
+typedef enum {
+    swaitINAV_PV_OK                 /* PV OK */,
+    swaitINAV_PV_BAD                /* PV BAD */,
+    swaitINAV_No_PV                 /* No PV */
+} swaitINAV;
+#define swaitINAV_NUM_CHOICES 3
 
 typedef enum {
     swaitDOPT_Use_VAL               /* Use VAL */,

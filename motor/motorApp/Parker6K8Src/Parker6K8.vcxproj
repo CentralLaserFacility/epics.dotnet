@@ -43,6 +43,7 @@
     <ClCompile Include="parker6kAxis.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="unistd.h" />
     <ClInclude Include="parker6kController.h" />
     <ClInclude Include="parker6kAxis.h" />
   </ItemGroup>
@@ -61,6 +62,15 @@
     </ProjectReference>
     <ProjectReference Include="..\..\..\support\asyn4-33\asyn\asyn.vcxproj">
       <Project>{c3ea0ff7-6039-4884-ba91-7b4619befea5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\support\calc\calcApp\src\calc.vcxproj">
+      <Project>{704a182e-faea-4e59-b5f4-9dc799f4556a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\support\seq\src\seq\seq.vcxproj">
+      <Project>{ae5791bc-9233-4f7a-8deb-a14e4d969c05}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\support\seq\src\snc\snc.vcxproj">
+      <Project>{71608fb9-8dbe-42ad-93a1-0b521a6fb6aa}</Project>
     </ProjectReference>
     <ProjectReference Include="..\MotorSrc\motor.vcxproj">
       <Project>{9ea7bd8e-c551-4874-85ed-abbfcfe7a7d4}</Project>

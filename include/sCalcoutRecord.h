@@ -24,10 +24,10 @@ typedef enum {
 #define scalcoutDOPT_NUM_CHOICES 2
 
 typedef enum {
-    scalcoutWAIT_NoWait             /* NoWait */,
-    scalcoutWAIT_Wait               /* Wait */
-} scalcoutWAIT;
-#define scalcoutWAIT_NUM_CHOICES 2
+    scalcoutINAP_No                 /* No PROC on Change */,
+    scalcoutINAP_Yes                /* PROC on Change */
+} scalcoutINAP;
+#define scalcoutINAP_NUM_CHOICES 2
 
 typedef enum {
     scalcoutOOPT_Every_Time         /* Every Time */,
@@ -41,10 +41,10 @@ typedef enum {
 #define scalcoutOOPT_NUM_CHOICES 7
 
 typedef enum {
-    scalcoutINAP_No                 /* No PROC on Change */,
-    scalcoutINAP_Yes                /* PROC on Change */
-} scalcoutINAP;
-#define scalcoutINAP_NUM_CHOICES 2
+    scalcoutWAIT_NoWait             /* NoWait */,
+    scalcoutWAIT_Wait               /* Wait */
+} scalcoutWAIT;
+#define scalcoutWAIT_NUM_CHOICES 2
 
 typedef struct scalcoutRecord {
     char                name[61];   /* Record Name */

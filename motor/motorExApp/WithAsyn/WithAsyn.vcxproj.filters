@@ -18,9 +18,6 @@
     <ClCompile Include="WithAsynMain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="O.Common\WithAsyn_registerRecordDeviceDriver.cpp">
-      <Filter>O.Common</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LdevNewport.dbd">

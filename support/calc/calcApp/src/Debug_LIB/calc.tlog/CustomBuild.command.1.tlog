@@ -1,0 +1,25 @@
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\ACALCOUTRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/aCalcoutRecord.h aCalcoutRecord.dbd
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\CALCSUPPORT_LOCAL.DBD
+cd O.Common
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD -MExtUtils::Command -e cat ../calcSupport_LOCAL.dbd ../calcSupport_withSSCAN.dbd > calcSupport.dbd
+cd ..
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\CALCSUPPORT_WITHSSCAN.DBD
+SET PERL5LIB=C:\epics\lib\perl
+cd O.Common
+perl -CSD -MExtUtils::Command -e cat ../calcSupport_LOCAL.dbd ../calcSupport_withSSCAN.dbd > calc.dbd
+cd ..
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\SCALCOUTRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/sCalcoutRecord.h sCalcoutRecord.dbd
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\SSEQRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/sseqRecord.h sseqRecord.dbd
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\SWAITRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/swaitRecord.h swaitRecord.dbd
+^C:\EPICS\SUPPORT\CALC\CALCAPP\SRC\TRANSFORMRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/transformRecord.h transformRecord.dbd

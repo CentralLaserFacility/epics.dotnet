@@ -1,4 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug_DLL\) contains files shared from another project (cainfo.vcxproj, caput.vcxproj, catools.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  caget.c
-catools.lib(tool_lib.obj) : warning LNK4099: PDB '' was not found with 'catools.lib(tool_lib.obj)' or at ''; linking object as if no debug info
-  caget.vcxproj -> C:\epics\Debug_DLL\caget.exe

@@ -1,0 +1,9 @@
+^C:\EPICS\SUPPORT\SSCAN\SSCANAPP\SRC\MENUSSCAN.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToMenuH.pl  -IC:\epics\include -o ./O.Common/menuSscan.h menuSscan.dbd
+^C:\EPICS\SUPPORT\SSCAN\SSCANAPP\SRC\SCANPARMRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/scanparmRecord.h scanparmRecord.dbd
+^C:\EPICS\SUPPORT\SSCAN\SSCANAPP\SRC\SSCANRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I./O.Common -IC:\epics\include -IC:\epics\dbd -o ./O.Common/sscanRecord.h sscanRecord.dbd

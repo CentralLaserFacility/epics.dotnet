@@ -4,10 +4,15 @@
 #define INC_menuSscan_H
 
 typedef enum {
-    sscanNOYES_NO                   /* NO */,
-    sscanNOYES_YES                  /* YES */
-} sscanNOYES;
-#define sscanNOYES_NUM_CHOICES 2
+    sscanP1NV_PV_OK                 /* PV OK */,
+    sscanP1NV_No_PV                 /* No PV */,
+    sscanP1NV_PV_NoRead             /* PV NoRead */,
+    sscanP1NV_PV_xxx                /* PV illegal1 */,
+    sscanP1NV_PV_NoWrite            /* PV NoWrite */,
+    sscanP1NV_PV_yyy                /* PV illegal2 */,
+    sscanP1NV_PV_NC                 /* PV BAD */
+} sscanP1NV;
+#define sscanP1NV_NUM_CHOICES 7
 
 typedef enum {
     sscanFAZE_IDLE                  /* IDLE */,
@@ -30,28 +35,16 @@ typedef enum {
 #define sscanFAZE_NUM_CHOICES 16
 
 typedef enum {
-    sscanACQT_SCALAR                /* SCALAR */,
-    sscanACQT_1D_ARRAY              /* 1D ARRAY */
-} sscanACQT;
-#define sscanACQT_NUM_CHOICES 2
+    sscanPAUS_Go                    /* GO */,
+    sscanPAUS_Pause                 /* PAUSE */
+} sscanPAUS;
+#define sscanPAUS_NUM_CHOICES 2
 
 typedef enum {
-    sscanFFO_Use_F_Flags            /* USE F-FLAGS */,
-    sscanFFO_Override               /* OVERRIDE */
-} sscanFFO;
-#define sscanFFO_NUM_CHOICES 2
-
-typedef enum {
-    sscanCMND_CLEAR_MSG             /* Clear msg */,
-    sscanCMND_CHECK_LIMITS          /* Check limits */,
-    sscanCMND_PREVIEW_SCAN          /* Preview scan */,
-    sscanCMND_CLEAR_ALL_PVS         /* Clear all PV's */,
-    sscanCMND_CLEAR_POS_PVS_ETC     /* Clear pos PV's, etc */,
-    sscanCMND_CLEAR_POS_PVS         /* Clear pos PV's */,
-    sscanCMND_CLEAR_POS_RDBK_PVS_ETC /* Clear pos&rdbk PV's, etc */,
-    sscanCMND_CLEAR_POS_RDBK_PVS    /* Clear pos&rdbk PV's */
-} sscanCMND;
-#define sscanCMND_NUM_CHOICES 8
+    sscanFPTS_No                    /* NO */,
+    sscanFPTS_Freeze                /* FREEZE */
+} sscanFPTS;
+#define sscanFPTS_NUM_CHOICES 2
 
 typedef enum {
     sscanPASM_Stay                  /* STAY */,
@@ -66,33 +59,34 @@ typedef enum {
 #define sscanPASM_NUM_CHOICES 8
 
 typedef enum {
+    sscanNOYES_NO                   /* NO */,
+    sscanNOYES_YES                  /* YES */
+} sscanNOYES;
+#define sscanNOYES_NUM_CHOICES 2
+
+typedef enum {
     sscanP1AR_Absolute              /* ABSOLUTE */,
     sscanP1AR_Relative              /* RELATIVE */
 } sscanP1AR;
 #define sscanP1AR_NUM_CHOICES 2
 
 typedef enum {
-    sscanP1NV_PV_OK                 /* PV OK */,
-    sscanP1NV_No_PV                 /* No PV */,
-    sscanP1NV_PV_NoRead             /* PV NoRead */,
-    sscanP1NV_PV_xxx                /* PV illegal1 */,
-    sscanP1NV_PV_NoWrite            /* PV NoWrite */,
-    sscanP1NV_PV_yyy                /* PV illegal2 */,
-    sscanP1NV_PV_NC                 /* PV BAD */
-} sscanP1NV;
-#define sscanP1NV_NUM_CHOICES 7
+    sscanCMND_CLEAR_MSG             /* Clear msg */,
+    sscanCMND_CHECK_LIMITS          /* Check limits */,
+    sscanCMND_PREVIEW_SCAN          /* Preview scan */,
+    sscanCMND_CLEAR_ALL_PVS         /* Clear all PV's */,
+    sscanCMND_CLEAR_POS_PVS_ETC     /* Clear pos PV's, etc */,
+    sscanCMND_CLEAR_POS_PVS         /* Clear pos PV's */,
+    sscanCMND_CLEAR_POS_RDBK_PVS_ETC /* Clear pos&rdbk PV's, etc */,
+    sscanCMND_CLEAR_POS_RDBK_PVS    /* Clear pos&rdbk PV's */
+} sscanCMND;
+#define sscanCMND_NUM_CHOICES 8
 
 typedef enum {
-    sscanFPTS_No                    /* NO */,
-    sscanFPTS_Freeze                /* FREEZE */
-} sscanFPTS;
-#define sscanFPTS_NUM_CHOICES 2
-
-typedef enum {
-    sscanPAUS_Go                    /* GO */,
-    sscanPAUS_Pause                 /* PAUSE */
-} sscanPAUS;
-#define sscanPAUS_NUM_CHOICES 2
+    sscanFFO_Use_F_Flags            /* USE F-FLAGS */,
+    sscanFFO_Override               /* OVERRIDE */
+} sscanFFO;
+#define sscanFFO_NUM_CHOICES 2
 
 typedef enum {
     sscanACQM_NORMAL                /* NORMAL */,
@@ -106,6 +100,12 @@ typedef enum {
     sscanLINKWAIT_NO                /* NoWait */
 } sscanLINKWAIT;
 #define sscanLINKWAIT_NUM_CHOICES 2
+
+typedef enum {
+    sscanACQT_SCALAR                /* SCALAR */,
+    sscanACQT_1D_ARRAY              /* 1D ARRAY */
+} sscanACQT;
+#define sscanACQT_NUM_CHOICES 2
 
 typedef enum {
     sscanP1SM_Linear                /* LINEAR */,

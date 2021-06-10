@@ -10,6 +10,21 @@
 #include "epicsTime.h"
 
 typedef enum {
+    sseqLNKV_EXT_NC                 /* Ext PV NC */,
+    sseqLNKV_EXT                    /* Ext PV OK */,
+    sseqLNKV_LOC                    /* Local PV */,
+    sseqLNKV_CON                    /* Constant */
+} sseqLNKV;
+#define sseqLNKV_NUM_CHOICES 4
+
+typedef enum {
+    sseqSELM_All                    /* All */,
+    sseqSELM_Specified              /* Specified */,
+    sseqSELM_Mask                   /* Mask */
+} sseqSELM;
+#define sseqSELM_NUM_CHOICES 3
+
+typedef enum {
     sseqWAIT_NoWait                 /* NoWait */,
     sseqWAIT_Wait                   /* Wait */,
     sseqWAIT_Wait1                  /* After1 */,
@@ -24,21 +39,6 @@ typedef enum {
     sseqWAIT_Wait10                 /* AfterA */
 } sseqWAIT;
 #define sseqWAIT_NUM_CHOICES 12
-
-typedef enum {
-    sseqLNKV_EXT_NC                 /* Ext PV NC */,
-    sseqLNKV_EXT                    /* Ext PV OK */,
-    sseqLNKV_LOC                    /* Local PV */,
-    sseqLNKV_CON                    /* Constant */
-} sseqLNKV;
-#define sseqLNKV_NUM_CHOICES 4
-
-typedef enum {
-    sseqSELM_All                    /* All */,
-    sseqSELM_Specified              /* Specified */,
-    sseqSELM_Mask                   /* Mask */
-} sseqSELM;
-#define sseqSELM_NUM_CHOICES 3
 
 typedef struct sseqRecord {
     char                name[61];   /* Record Name */

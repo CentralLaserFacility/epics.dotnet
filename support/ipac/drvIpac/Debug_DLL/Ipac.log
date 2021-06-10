@@ -1,9 +1,0 @@
-﻿  drvIpac.c
-  drvTvme200.c
-  drvVipc310.c
-  drvVipc610.c
-  drvVipc616.c
-  drvXy9660.c
-  Generating Code...
-     Creating library C:\epics\Debug_DLL\Ipac.lib and object C:\epics\Debug_DLL\Ipac.exp
-  Ipac.vcxproj -> C:\epics\Debug_DLL\Ipac.dll

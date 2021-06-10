@@ -10,6 +10,19 @@
 #include "epicsTime.h"
 
 typedef enum {
+    motorDIR_Pos                    /* Pos */,
+    motorDIR_Neg                    /* Neg */
+} motorDIR;
+#define motorDIR_NUM_CHOICES 2
+
+typedef enum {
+    motorSTUP_OFF                   /* OFF */,
+    motorSTUP_ON                    /* ON */,
+    motorSTUP_BUSY                  /* BUSY */
+} motorSTUP;
+#define motorSTUP_NUM_CHOICES 3
+
+typedef enum {
     motorFOFF_Variable              /* Variable */,
     motorFOFF_Frozen                /* Frozen */
 } motorFOFF;
@@ -22,12 +35,10 @@ typedef enum {
 #define menuOmsl_NUM_CHOICES 2
 
 typedef enum {
-    motorSPMG_Stop                  /* Stop */,
-    motorSPMG_Pause                 /* Pause */,
-    motorSPMG_Move                  /* Move */,
-    motorSPMG_Go                    /* Go */
-} motorSPMG;
-#define motorSPMG_NUM_CHOICES 4
+    motorTORQ_Disable               /* Disable */,
+    motorTORQ_Enable                /* Enable */
+} motorTORQ;
+#define motorTORQ_NUM_CHOICES 2
 
 typedef enum {
     menuYesNoNO                     /* NO */,
@@ -42,29 +53,18 @@ typedef enum {
 #define motorUEIP_NUM_CHOICES 2
 
 typedef enum {
-    motorSTUP_OFF                   /* OFF */,
-    motorSTUP_ON                    /* ON */,
-    motorSTUP_BUSY                  /* BUSY */
-} motorSTUP;
-#define motorSTUP_NUM_CHOICES 3
-
-typedef enum {
-    motorDIR_Pos                    /* Pos */,
-    motorDIR_Neg                    /* Neg */
-} motorDIR;
-#define motorDIR_NUM_CHOICES 2
-
-typedef enum {
-    motorTORQ_Disable               /* Disable */,
-    motorTORQ_Enable                /* Enable */
-} motorTORQ;
-#define motorTORQ_NUM_CHOICES 2
-
-typedef enum {
     motorMODE_Position              /* Position */,
     motorMODE_Velocity              /* Velocity */
 } motorMODE;
 #define motorMODE_NUM_CHOICES 2
+
+typedef enum {
+    motorSPMG_Stop                  /* Stop */,
+    motorSPMG_Pause                 /* Pause */,
+    motorSPMG_Move                  /* Move */,
+    motorSPMG_Go                    /* Go */
+} motorSPMG;
+#define motorSPMG_NUM_CHOICES 4
 
 typedef enum {
     motorSET_Use                    /* Use */,

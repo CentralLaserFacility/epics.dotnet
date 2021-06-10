@@ -1,0 +1,9 @@
+^C:\EPICS\MOTOR\MOTORAPP\NEWPORTSRC\XPS_TRAJECTORYSCAN.ST
+cl -C -E               -nologo -D__STDC__=0 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -I./O.Common -IC:\epics\include/compiler/msvc -IC:\epics\include/os/WIN32 -IC:\epics\include -IC:\epics\include/os/WIN32  XPS_trajectoryScan.st > O.Common\XPS_trajectoryScan.i
+C:\epics\Debug_LIB\snc.exe     O.Common\XPS_trajectoryScan.i -o O.Common\XPS_trajectoryScan.c
+^C:\EPICS\MOTOR\MOTORAPP\NEWPORTSRC\MM4005_TRAJECTORYSCAN.ST
+cl -C -E               -nologo -D__STDC__=0 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -I./O.Common -IC:\epics\include/compiler/msvc -IC:\epics\include/os/WIN32 -IC:\epics\include -IC:\epics\include/os/WIN32  MM4005_trajectoryScan.st > O.Common\MM4005_trajectoryScan.i
+C:\epics\Debug_LIB\snc.exe     O.Common\MM4005_trajectoryScan.i -o O.Common\MM4005_trajectoryScan.c
+^C:\EPICS\MOTOR\MOTORAPP\NEWPORTSRC\XPSSLAVE.ST
+cl -C -E               -nologo -D__STDC__=0 -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -I./O.Common -IC:\epics\include/compiler/msvc -IC:\epics\include/os/WIN32 -IC:\epics\include -IC:\epics\include/os/WIN32  xpsSlave.st > O.Common\xpsSlave.i
+C:\epics\Debug_LIB\snc.exe     O.Common\xpsSlave.i -o O.Common\xpsSlave.c

@@ -10,36 +10,16 @@
 #include "epicsTime.h"
 
 typedef enum {
-    acalcoutINAP_No                 /* No PROC on Change */,
-    acalcoutINAP_Yes                /* PROC on Change */
-} acalcoutINAP;
-#define acalcoutINAP_NUM_CHOICES 2
+    acalcoutDOPT_Use_VAL            /* Use CALC */,
+    acalcoutDOPT_Use_OVAL           /* Use OCAL */
+} acalcoutDOPT;
+#define acalcoutDOPT_NUM_CHOICES 2
 
 typedef enum {
     acalcoutWAIT_NoWait             /* NoWait */,
     acalcoutWAIT_Wait               /* Wait */
 } acalcoutWAIT;
 #define acalcoutWAIT_NUM_CHOICES 2
-
-typedef enum {
-    acalcoutSIZE_NELM               /* NELM */,
-    acalcoutSIZE_NUSE               /* NUSE */
-} acalcoutSIZE;
-#define acalcoutSIZE_NUM_CHOICES 2
-
-typedef enum {
-    acalcoutINAV_EXT_NC             /* Ext PV NC */,
-    acalcoutINAV_EXT                /* Ext PV OK */,
-    acalcoutINAV_LOC                /* Local PV */,
-    acalcoutINAV_CON                /* Constant */
-} acalcoutINAV;
-#define acalcoutINAV_NUM_CHOICES 4
-
-typedef enum {
-    acalcoutDOPT_Use_VAL            /* Use CALC */,
-    acalcoutDOPT_Use_OVAL           /* Use OCAL */
-} acalcoutDOPT;
-#define acalcoutDOPT_NUM_CHOICES 2
 
 typedef enum {
     acalcoutOOPT_Every_Time         /* Every Time */,
@@ -51,6 +31,26 @@ typedef enum {
     acalcoutOOPT_Never              /* Never */
 } acalcoutOOPT;
 #define acalcoutOOPT_NUM_CHOICES 7
+
+typedef enum {
+    acalcoutINAV_EXT_NC             /* Ext PV NC */,
+    acalcoutINAV_EXT                /* Ext PV OK */,
+    acalcoutINAV_LOC                /* Local PV */,
+    acalcoutINAV_CON                /* Constant */
+} acalcoutINAV;
+#define acalcoutINAV_NUM_CHOICES 4
+
+typedef enum {
+    acalcoutSIZE_NELM               /* NELM */,
+    acalcoutSIZE_NUSE               /* NUSE */
+} acalcoutSIZE;
+#define acalcoutSIZE_NUM_CHOICES 2
+
+typedef enum {
+    acalcoutINAP_No                 /* No PROC on Change */,
+    acalcoutINAP_Yes                /* PROC on Change */
+} acalcoutINAP;
+#define acalcoutINAP_NUM_CHOICES 2
 
 typedef struct acalcoutRecord {
     char                name[61];   /* Record Name */

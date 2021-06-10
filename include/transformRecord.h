@@ -10,18 +10,18 @@
 #include "epicsTime.h"
 
 typedef enum {
-    transformIVLA_IGNORE            /* Ignore error */,
-    transformIVLA_DO_NOTHING        /* Do Nothing */
-} transformIVLA;
-#define transformIVLA_NUM_CHOICES 2
-
-typedef enum {
     transformIAV_EXT_NC             /* Ext PV NC */,
     transformIAV_EXT                /* Ext PV OK */,
     transformIAV_LOC                /* Local PV */,
     transformIAV_CON                /* Constant */
 } transformIAV;
 #define transformIAV_NUM_CHOICES 4
+
+typedef enum {
+    transformIVLA_IGNORE            /* Ignore error */,
+    transformIVLA_DO_NOTHING        /* Do Nothing */
+} transformIVLA;
+#define transformIVLA_NUM_CHOICES 2
 
 typedef enum {
     transformCOPT_CONDITIONAL       /* Conditional */,

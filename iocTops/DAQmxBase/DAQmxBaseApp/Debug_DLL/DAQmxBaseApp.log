@@ -1,6 +1,0 @@
-﻿  DAQmxBase_registerRecordDeviceDriver.cpp
-  DAQmxBaseMain.cpp
-  drvDaqMxBase.cpp
-  Generating Code...
-     Creating library C:\epics\Debug_DLL\DAQmxBaseApp.lib and object C:\epics\Debug_DLL\DAQmxBaseApp.exp
-  DAQmxBaseApp.vcxproj -> C:\epics\Debug_DLL\DAQmxBaseApp.exe

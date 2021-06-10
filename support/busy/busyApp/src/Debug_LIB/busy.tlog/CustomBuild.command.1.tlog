@@ -1,0 +1,3 @@
+^C:\EPICS\SUPPORT\BUSY\BUSYAPP\SRC\BUSYRECORD.DBD
+SET PERL5LIB=C:\epics\lib\perl
+perl -CSD C:\epics\Debug_LIB\dbdToRecordtypeH.pl  -I. -I.. -I../O.Common -I../../../dbd -IC:\epics\dbd -o O.Common/busyRecord.h busyRecord.dbd
